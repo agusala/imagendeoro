@@ -1,0 +1,13 @@
+@media screen and (min-width: 0px) and (max-width: 30em) {
+
+    .slider1{ display: none !important;}
+ 
+  } 
+
+@media only screen and (min-width : 30em) {
+
+    .slider2{ display: none !important;}
+    }
+.container{
+  background-image: url('../../../../public/fondo\ web\ \(1\).png');
+}

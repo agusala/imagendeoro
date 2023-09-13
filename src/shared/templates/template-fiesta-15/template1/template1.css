@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+:root{
+    --text-family:var(--text-family);
+}
+
+@media (max-width: 600px) {
+    .header-text{
+        font-size: 50px;
+        margin-bottom: 5px;
+    }
+    .block-2{
+        margin-top: 8vh;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .imagen-header{
+        height: 5vh;
+    }
+    .mapa{
+        width: 80%;
+    }
+    .button-asistencia{
+        width: 100%;
+        border-radius: 20px;
+        padding: 5px;
+    }
+    .asistencia{
+        font-size: 20px;
+        width: 100%;
+    }
+    .instagram{
+        text-align: center;
+        
+    }
+    .regalo{
+        padding-top: 25vh;
+    }
+    .img-regalo{
+        width: 60% !important;
+        height: 60% !important;
+    }
+    .content-asistencia-cena{
+        padding-right: 30px;
+    }
+    
+    .content-asistencia-brindis{
+        padding-left: 20px;
+    }
+    .datos{
+        font-size: 18px;
+    }
+    .data-button{
+        font-size: 10px;
+    }
+    .text-regalo{
+        font-size: 28px;
+    }
+    .content-datos{
+        padding:2s0px
+    }
+    .astensiaAcena{
+        padding-bottom: 25px;
+    }
+    .insta-content{
+        margin-top: -45vh;
+    }
+    .footer{
+        padding: 10%;
+    }
+    .content-tempo{
+        margin-top: -40vh;
+    }
+
+}
+
+.text-temporizador{
+    font-family:"Open Sans";
+}
+
+.fecha-hora{
+    font-family:"Open Sans" ;
+}
+
+.lugar{
+    font-family:"Open Sans" ;
+}
+.mapa{
+    font-family: "Open Sans";
+}
+.button-asistencia{
+    font-family: "Open Sans";
+}
+
+.number-tempo{
+    text-align: center;
+}
+
+
+.title-modal{
+
+    font-size: xx-large;
+}
