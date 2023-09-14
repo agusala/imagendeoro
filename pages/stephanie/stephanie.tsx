@@ -181,7 +181,7 @@ function Stephanie() {
         <Image
           src={LogoIOColor}
           alt="Picture of the author"
-          style={{ width: "30%", height: "30%", marginLeft: "30%" }}
+          style={{ width: "75%", height: "75%", marginLeft: "18%" }}
         />
       </Box>
       {/* <Box
@@ -237,7 +237,7 @@ function Stephanie() {
         <Image src={fondo} alt="Picture of the author" style={{width:'100%',height:'50%'}}/>
       </Box> */}
       <Box
-        sx={{ textAlign: "center", p: "1rem", mt: "1 em", paddingTop: "10vh" }}
+        sx={{ textAlign: "center", p: "5rem", mt: "1em", paddingTop: "20vh" }}
         className="content-tempo"
       >
         <Typography
@@ -314,7 +314,7 @@ function Stephanie() {
               sx={{ color: "white" }}
               className="fontCard2"
             >
-              Schedule
+              Fecha Evento
             </Typography>
             <Typography
               variant="body1"
@@ -344,7 +344,7 @@ function Stephanie() {
               }}
               className="fontCard2"
             >
-              more info
+              Informacion
             </Button>
             <Modal
               open={open1}
@@ -432,7 +432,7 @@ function Stephanie() {
               sx={{ color: "white" }}
               className="fontCard2"
             >
-              Location
+              Ubicación
             </Typography>
             <Typography
               variant="body1"
@@ -467,7 +467,7 @@ function Stephanie() {
               }}
               className="fontCard2"
             >
-              map
+              Mapa
             </Button>
           </Card>
         </Grid>
@@ -514,7 +514,7 @@ function Stephanie() {
                 sx={{ color: "white", m: "auto" }}
                 className="fontCard2"
               >
-                Dress Code
+                Vestimenta
               </Typography>
               <Typography
                 variant="body1"
@@ -554,7 +554,7 @@ function Stephanie() {
               }}
               className="fontCard2"
             >
-              more info
+              Informacion
             </Button>
 
             <Modal
@@ -642,7 +642,7 @@ function Stephanie() {
           }}
           className="fontCard2"
         >
-          i want to confirm
+          Confirmacion 
         </Button>
       </Box>
       <Modal
