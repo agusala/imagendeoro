@@ -1,8 +1,8 @@
 self.__RSC_MANIFEST={
   "__ssr_module_mapping__": {
-    "(app-client)/./public/goldenFlow.png": {
+    "(app-client)/./public/LogoIOColor.png": {
       "": {
-        "id": "(sc_client)/./public/goldenFlow.png",
+        "id": "(sc_client)/./public/LogoIOColor.png",
         "name": "",
         "chunks": [
           "app/page:app/page"
@@ -10,7 +10,7 @@ self.__RSC_MANIFEST={
         "async": false
       },
       "*": {
-        "id": "(sc_client)/./public/goldenFlow.png",
+        "id": "(sc_client)/./public/LogoIOColor.png",
         "name": "*",
         "chunks": [
           "app/page:app/page"
@@ -18,33 +18,7 @@ self.__RSC_MANIFEST={
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./public/goldenFlow.png",
-        "name": "default",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/logoImagenDeOroDorado.png": {
-      "": {
-        "id": "(sc_client)/./public/logoImagenDeOroDorado.png",
-        "name": "",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./public/logoImagenDeOroDorado.png",
-        "name": "*",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/logoImagenDeOroDorado.png",
+        "id": "(sc_client)/./public/LogoIOColor.png",
         "name": "default",
         "chunks": [
           "app/page:app/page"
@@ -211,14 +185,14 @@ self.__RSC_MANIFEST={
   },
   "__edge_ssr_module_mapping__": {},
   "__entry_css_files__": {
-    "C:\\Users\\Usuario\\stephanie\\src\\app\\page": [
+    "C:\\Users\\Usuario\\imagendeoro\\src\\app\\page": [
       "static/css/app/page.css"
     ],
-    "C:\\Users\\Usuario\\stephanie\\src\\app\\layout": [
+    "C:\\Users\\Usuario\\imagendeoro\\src\\app\\layout": [
       "static/css/_app-client_src_app_globals_css.css"
     ]
   },
-  "C:\\Users\\Usuario\\stephanie\\pages\\stephanie\\stephanie.css": {
+  "C:\\Users\\Usuario\\imagendeoro\\pages\\stephanie\\stephanie.css": {
     "default": {
       "id": "null",
       "name": "default",
@@ -227,9 +201,9 @@ self.__RSC_MANIFEST={
       ]
     }
   },
-  "C:\\Users\\Usuario\\stephanie\\public\\goldenFlow.png": {
+  "C:\\Users\\Usuario\\imagendeoro\\public\\LogoIOColor.png": {
     "": {
-      "id": "(app-client)/./public/goldenFlow.png",
+      "id": "(app-client)/./public/LogoIOColor.png",
       "name": "",
       "chunks": [
         "app/page:app/page"
@@ -237,7 +211,7 @@ self.__RSC_MANIFEST={
       "async": false
     },
     "*": {
-      "id": "(app-client)/./public/goldenFlow.png",
+      "id": "(app-client)/./public/LogoIOColor.png",
       "name": "*",
       "chunks": [
         "app/page:app/page"
@@ -245,7 +219,7 @@ self.__RSC_MANIFEST={
       "async": false
     },
     "default": {
-      "id": "(app-client)/./public/goldenFlow.png",
+      "id": "(app-client)/./public/LogoIOColor.png",
       "name": "default",
       "chunks": [
         "app/page:app/page"
@@ -253,33 +227,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\stephanie\\public\\logoImagenDeOroDorado.png": {
-    "": {
-      "id": "(app-client)/./public/logoImagenDeOroDorado.png",
-      "name": "",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./public/logoImagenDeOroDorado.png",
-      "name": "*",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./public/logoImagenDeOroDorado.png",
-      "name": "default",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    }
-  },
-  "C:\\Users\\Usuario\\stephanie\\public\\semiCirculo.png": {
+  "C:\\Users\\Usuario\\imagendeoro\\public\\semiCirculo.png": {
     "": {
       "id": "(app-client)/./public/semiCirculo.png",
       "name": "",
@@ -305,7 +253,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\stephanie\\src\\app\\page.tsx": {
+  "C:\\Users\\Usuario\\imagendeoro\\src\\app\\page.tsx": {
     "": {
       "id": "(app-client)/./src/app/page.tsx",
       "name": "",
@@ -331,7 +279,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\stephanie\\node_modules\\next\\dist\\client\\components\\app-router.js": {
+  "C:\\Users\\Usuario\\imagendeoro\\node_modules\\next\\dist\\client\\components\\app-router.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
@@ -357,7 +305,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\stephanie\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js": {
+  "C:\\Users\\Usuario\\imagendeoro\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
@@ -383,7 +331,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\stephanie\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
+  "C:\\Users\\Usuario\\imagendeoro\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
@@ -409,7 +357,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\stephanie\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js": {
+  "C:\\Users\\Usuario\\imagendeoro\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
@@ -435,7 +383,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\stephanie\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
+  "C:\\Users\\Usuario\\imagendeoro\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
@@ -461,7 +409,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\stephanie\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js": {
+  "C:\\Users\\Usuario\\imagendeoro\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
@@ -487,7 +435,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\stephanie\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
+  "C:\\Users\\Usuario\\imagendeoro\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
@@ -513,7 +461,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\stephanie\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js": {
+  "C:\\Users\\Usuario\\imagendeoro\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
@@ -539,7 +487,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\stephanie\\src\\app\\globals.css": {
+  "C:\\Users\\Usuario\\imagendeoro\\src\\app\\globals.css": {
     "default": {
       "id": "null",
       "name": "default",

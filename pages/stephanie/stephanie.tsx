@@ -17,7 +17,7 @@ import ReactPlayer from "react-player";
 import Image from "next/image";
 import SemiCirculo from "../../public/semiCirculo.png";
 import goldenFlow from "../../public/goldenFlow.png";
-import premioimagendeoroblanca from "../../public/premioimagendeoroblanca.png";
+import LogoIOColor from "../../public/LogoIOColor.png";
 import logoImagenDeOroDorado from "../../public/logoImagenDeOroDorado.png";
 import fondoCinta from "../../public/steph invitacin digital 02_Mesa de trabajo 1 copia (1).png";
 import fondo from "../../public/invitacion fondo celu_Mesa de trabajo 1 (1).png";
@@ -31,6 +31,7 @@ import "./stephanie.css";
 import Link from "next/link";
 import BasicModal from "@/shared/components/modal/modal";
 import { on } from "events";
+import { LogoDev } from "@mui/icons-material";
 function Stephanie() {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
@@ -178,12 +179,12 @@ function Stephanie() {
       </Box>{" "}
       <Box className="contenImg" style={{ position: "relative", zIndex: 1 }}>
         <Image
-          src={logoImagenDeOroDorado}
+          src={LogoIOColor}
           alt="Picture of the author"
           style={{ width: "30%", height: "30%", marginLeft: "30%" }}
         />
       </Box>
-      <Box
+      {/* <Box
         className="fondoCinta contentHeader"
         sx={{
           flexGrow: 1,
@@ -193,8 +194,8 @@ function Stephanie() {
           paddingTop: "0vh",
           zIndex: 2,
         }}
-      >
-        <Typography
+      > */}
+        {/* <Typography
           variant="h1"
           component="h1"
           gutterBottom
@@ -225,7 +226,7 @@ function Stephanie() {
           alt="Picture of the author"
           style={{ width: "130%", height: "50%", marginLeft: "-15%" }}
         />
-      </Box>
+      </Box> */}
       {/* <Box width={'100%'} height={'100%'} marginTop={'-62vh'} className="contentImg"> 
       <Image src={fondoCinta} alt="Picture of the author" style={{width:'130%',height:'50%',marginLeft:'-15%'}}/>
       </Box>
