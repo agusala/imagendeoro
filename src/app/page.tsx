@@ -1,12 +1,12 @@
 "use client";
-import  Stephanie  from "../../pages/stephanie/stephanie";
+import  ImagenDeOro  from "pages/imagendeoro/imagendeoro";
 import React from "react";
 
 export default function Page() {
   return (
     <main>
       <div className="container">
-      <Stephanie></Stephanie>
+      <ImagenDeOro></ImagenDeOro>
       </div>
     </main>
   );
