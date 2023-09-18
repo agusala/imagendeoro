@@ -186,8 +186,7 @@ function ImagenDeOro() {
             style={{ width: "50vh", height: "50vh", margin: "auto" }}
           />
         </Grid>
-        <Box textAlign="center"
-        height={200} m="auto" mt={6}>
+        <Box textAlign="center" height={200} m="auto" mt={6}>
           <Typography variant="h3" component="h2" fontSize={30} className="">
             {timeLeft.llego == "" ? "SE ACERCA EL EVENTO" : ""}
           </Typography>
@@ -212,11 +211,11 @@ function ImagenDeOro() {
               backgroundColor: "black",
               border: 0,
               borderRadius: "10px",
-              height: 200,
-              maxWidth: 260,
+              height: 300,
+              maxWidth: 300,
               m: "auto",
               bgcolor: "black",
-              borderColor: "white",
+              borderColor: "#ffd700",              
               marginTop: "-1%",
               padding: "2%",
             }}
@@ -226,14 +225,14 @@ function ImagenDeOro() {
               variant="h4"
               component="div"
               gutterBottom
-              sx={{ color: "white" }}
+              sx={{ color: "white", textAlign:"center" }}
               className="fontCard2"
             >
               Fecha Evento
             </Typography>
             <Typography
               variant="body1"
-              sx={{ color: "white" }}
+              sx={{ color: "white", textAlign:"center" }}
               className="fontCard"
             >
               Sabado, Oct 07 - 08:00p.m.
@@ -486,7 +485,7 @@ function ImagenDeOro() {
           </Card>
         </Grid>
       </Grid>
-      <Box textAlign={"center"} m={"auto"} bgcolor={"black"} height={200} >
+      <Box textAlign={"center"} m={"auto"} bgcolor={"black"}>
         <Button
           onClick={handleOpenForm}
           variant="contained"
@@ -510,7 +509,6 @@ function ImagenDeOro() {
             },
             mt: "8%",
           }}
-          
           className=""
         >
           Confirmar Asistencia
