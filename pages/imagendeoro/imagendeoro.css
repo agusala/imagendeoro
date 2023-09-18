@@ -1,2 +1,33 @@
-.content-header{
-    background-image: url("../../public/abstract-water-gold-1283722.jpg")!important;}
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.contentCard1{
+    border-left: 2px solid white;
+    border-right: 1px solid white;
+}
+.contentCard2{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+.contentCard3{
+    border-left: 1px solid white;
+    border-right: 2px solid white;
+}
+.title-tempo{
+    font-family: 'Prompt', sans-serif;
+    font-weight: 700;
+    font-size:5em
+}
+.tempo{
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
+    font-size:4em;
+    
+}
+.titleCard{
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+}
+.descriptionCard{
+    font-family: 'Prompt', sans-serif;
+    font-weight: 200;
+}

@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import {
   Box,
   Button,
@@ -14,9 +15,17 @@ import {
   Typography,
 } from "@mui/material";
 import React, { useEffect, useState } from "react";
-import LogoIOColor from "../../public/logoImagenDeOroDorado.png";
+import LogoIOColor from "../../public/premioimagendeoro.png";
+import FondoHeader from "../../public/abstract-water-gold-1283722.jpg";
+import Pintura from "../../public/pintura.png";
+import Disco from "../../public/disco.png";
+import PolvoDorado from "../../public/PolvoDorado.png";
+import Dorado from "../../public/pintura.png";
+import Luces from "../../public/luces.jpg";
+import Cinta from "../../public/cinta.png";
 import Image from "next/image";
 import { url } from "inspector";
+import "./imagendeoro.css";
 
 function ImagenDeOro() {
   const [open, setOpen] = React.useState(false);
@@ -92,7 +101,7 @@ function ImagenDeOro() {
 
   const imgURL = "../../public/abstract-water-gold-1283722.jpg";
   return (
-    <div>
+    <div style={{ backgroundColor: "black" }}>
       <Dialog
         open={openModal}
         keepMounted
@@ -165,98 +174,192 @@ function ImagenDeOro() {
           </Grid>
         </Grid>
       </Box>
-      <Box sx={{ backgroundColor: "black" }}>
+      <Box
+        sx={{
+          backgroundColor: "black",
+        }}
+      >
         <Grid
           container
           textAlign={"center"}
           className="content-header"
           sx={{
-            backgroundColor: "#ffd700",
-            opacity: 0.7,
             flexGrow: 1,
             textAlign: "center",
             height: 400,
             m: "auto",
             paddingTop: "0vh",
+            backgroundImage: `url(${FondoHeader.src})`,
+            zIndex: -1,
           }}
         >
           <Image
             src={LogoIOColor}
             alt="Picture of the author"
-            style={{ width: "50vh", height: "50vh", margin: "auto" }}
+            style={{
+              width: "50vh",
+              height: "50vh",
+              margin: "auto",
+              zIndex: 10,
+            }}
           />
         </Grid>
         <Box textAlign="center" height={200} m="auto" mt={6}>
-          <Typography variant="h3" component="h2" fontSize={30} className="">
+          <Typography
+            variant="h3"
+            component="h2"
+            fontSize={30}
+            className="title-tempo"
+          >
             {timeLeft.llego == "" ? "SE ACERCA EL EVENTO" : ""}
           </Typography>
-          <Typography variant="h1" component="h2" fontSize={70} className="">
-            {timeLeft.llego == ""
-              ? timeLeft.days +
-                "D : " +
-                timeLeft.hours +
-                "H : " +
-                timeLeft.minutes +
-                "M : " +
-                timeLeft.second +
-                "S"
-              : timeLeft.llego}
-          </Typography>
+          <Grid
+            container
+            spacing={3}
+            sx={{
+              height: "50vh",
+              alignContent: "center",
+              justifyContent: "center",
+            }}
+          >
+            <Grid
+              item
+              xs={2.5}
+              sx={{
+                backgroundImage: `url(${Luces.src})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center center",
+                border: "solid 3px white",
+                boxShadow: "7px 7px 5px 0px rgba(229, 166, 94,0.43)",
+                borderRadius: "5px",
+                m: "10px",
+                pl: "0px!important",
+                pt: "0px!important",
+              }}
+            >
+              <Typography variant="h1" component="h2" className="tempo">
+                {" "}
+                {timeLeft.llego == "" ? timeLeft.days + "D" : ""}
+              </Typography>
+            </Grid>
+            <Grid
+              item
+              xs={2.5}
+              sx={{
+                backgroundImage: `url(${Luces.src})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center center",
+                border: "solid 3px white",
+                boxShadow: "7px 7px 5px 0px rgba(229, 166, 94,0.43)",
+                borderRadius: "5px",
+                m: "10px",
+                pl: "0px!important",
+                pt: "0px!important",
+              }}
+            >
+              <Typography variant="h1" component="h2" className="tempo">
+                {" "}
+                {timeLeft.llego == "" ? timeLeft.hours + "H" : ""}
+              </Typography>
+            </Grid>
+            <Grid
+              item
+              xs={2.5}
+              sx={{
+                backgroundImage: `url(${Luces.src})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center center",
+                border: "solid 3px white",
+                boxShadow: "7px 7px 5px 0px rgba(229, 166, 94,0.43)",
+                borderRadius: "5px",
+                m: "10px",
+                pl: "0px!important",
+                pt: "0px!important",
+              }}
+            >
+              <Typography variant="h1" component="h2" className="tempo">
+                {" "}
+                {timeLeft.llego == "" ? timeLeft.minutes + "M" : ""}
+              </Typography>
+            </Grid>
+            <Grid
+              item
+              xs={2.5}
+              sx={{
+                backgroundImage: `url(${Luces.src})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center center",
+                border: "solid 3px white",
+                boxShadow: "7px 7px 5px 0px rgba(229, 166, 94,0.43)",
+                borderRadius: "5px",
+                m: "10px",
+                pl: "0px!important",
+                pt: "0px!important",
+              }}
+            >
+              <Typography variant="h1" component="h2" className="tempo">
+                {" "}
+                {timeLeft.llego == "" ? timeLeft.second + "S" : ""}
+              </Typography>
+            </Grid>
+          </Grid>
         </Box>
       </Box>
-      <Grid container justifyContent="center" spacing={3} bgcolor={"black"}>
-        <Grid item xs={12} sm={4}>
+      <Grid
+        container
+        justifyContent="center"
+        spacing={6}
+        bgcolor={"black"}
+        mt="40vh "
+      >
+        <Grid
+          item
+          xs={12}
+          sm={3}
+          className="contentCard1"
+          pl="0px!important"
+          pt="0px!important"
+          height={"12em"}
+        >
           <Card
+            className="card"
             sx={{
               backgroundColor: "black",
-              border: 0,
-              borderRadius: "10px",
-              height: 300,
-              maxWidth: 300,
-              m: "auto",
-              bgcolor: "black",
-              borderColor: "#ffd700",              
-              marginTop: "-1%",
-              padding: "2%",
+              color: "white",
+              textAlign: "center",
+              m: "10%",
+              height: "100%",
+              position: "relative",
             }}
-            className="card"
           >
             <Typography
               variant="h4"
               component="div"
               gutterBottom
-              sx={{ color: "white", textAlign:"center" }}
-              className="fontCard2"
+              className="titleCard"
             >
               Fecha Evento
             </Typography>
-            <Typography
-              variant="body1"
-              sx={{ color: "white", textAlign:"center" }}
-              className="fontCard"
-            >
+            <Typography variant="h6" className="descriptionCard" >
               Sabado, Oct 07 - 08:00p.m.
             </Typography>
             <Button
               onClick={handleOpen1}
               variant="contained"
+              className="titleCard"
               sx={{
-                fontWeight: "900",
-                bgcolor: "white",
-                color: "black",
-                textTransform: "none",
-                width: "90%",
-                position: "relative",
-                top: "34%",
-                fontSize: "1em",
+                position: "absolute",
+                left: 0,
+                right: 0,
+                bottom: "35px",
+                bgcolor: "rgba(229, 166, 94)",
+                border: "solid 3px rgba(255, 255, 255,0.43)",
+                borderRadius: "5px",
                 ":hover": {
-                  backgroundColor: "white",
-                  color: "black",
-                  width: "95%",
-                  height: "25%",
+                  bgcolor:'white',
+                  color:'black'
                 },
               }}
-              className="fontCard2"
             >
               more info
             </Button>
@@ -271,8 +374,6 @@ function ImagenDeOro() {
                   id="modal-modal-description"
                   variant="body1"
                   component="h2"
-                  sx={{ mt: 2 }}
-                  color={"black"}
                 >
                   <u>
                     <b> Importante:</b>
@@ -295,8 +396,6 @@ function ImagenDeOro() {
                   id="modal-modal-description"
                   variant="body1"
                   component="h2"
-                  sx={{ mt: 2 }}
-                  color={"black"}
                 >
                   Estamos emocionados de compartir este evento especial con
                   usted. Gracias por ser parte de ello!
@@ -305,126 +404,107 @@ function ImagenDeOro() {
             </Modal>
           </Card>
         </Grid>
-        <Grid item xs={12} sm={4}>
+        <Grid
+          item
+          xs={12}
+          sm={3}
+          className="contentCard2"
+          pl="0px!important"
+          pt="0px!important"
+          height={"12em"}
+        >
           <Card
+            className="card"
             sx={{
               backgroundColor: "black",
-              border: 0,
-              borderRadius: "10px",
-              height: 200,
-              maxWidth: 260,
-              m: "auto",
-              bgcolor: "black",
-              marginTop: "-1%",
-              padding: "2%",
+              color: "white",
+              textAlign: "center",
+              m: "10%",
+              height: "100%",
+              position: "relative",
             }}
-            className="card"
           >
             <Typography
               variant="h4"
               component="div"
               gutterBottom
-              sx={{ color: "white" }}
-              className="fontCard2"
+              className="titleCard"
             >
-              Ubaicacion
+              Ubicacion
             </Typography>
-            <Typography
-              variant="body2"
-              sx={{ color: "white", paddingLeft: "5%", paddingRight: "5%" }}
-              className="fontCard"
-            >
+            <Typography variant="h6" className="descriptionCard">
               O'clock Eventos
             </Typography>
             <Button
               variant="contained"
               href="https://maps.app.goo.gl/XhZci374BsKoTJ3d9"
+              className="titleCard"
               sx={{
-                fontWeight: "900",
-                bgcolor: "white",
-                color: "black",
-                textTransform: "none",
-                width: "90%",
-                position: "relative",
-                top: "15%",
-                fontSize: "1em",
+                position: "absolute",
+                left: 0,
+                right: 0,
+                bottom: "35px",
+                bgcolor: "rgba(229, 166, 94)",
+                border: "solid 3px rgba(255, 255, 255,0.43)",
+                borderRadius: "5px",
                 ":hover": {
-                  color: "black",
-                  width: "95%",
-                  height: "25%",
+                  bgcolor:'white',
+                  color:'black'
                 },
               }}
-              className="fontCard2"
             >
               map
             </Button>
           </Card>
         </Grid>
-        <Grid item xs={12} sm={4}>
+        <Grid
+          item
+          xs={12}
+          sm={3}
+          className="contentCard3"
+          pl="0px!important"
+          pt="0px!important"
+          height={"12em"}
+        >
           <Card
             sx={{
               backgroundColor: "black",
-              border: 0,
-              borderRadius: "10px",
-              height: 200,
-              maxWidth: 260,
-              m: "auto",
-              bgcolor: "black",
-              zIndex: 30,
-              marginTop: "-1%",
-              padding: "2%",
+              color: "white",
+              textAlign: "center",
+              m: "10%",
+              height: "100%",
+              position: "relative",
             }}
             className="card"
           >
-            <Box textAlign={"center"}>
+            <Box>
               <Typography
                 variant="h4"
                 component="div"
                 gutterBottom
-                sx={{ color: "white", m: "auto" }}
-                className="fontCard2"
+                className="titleCard"
               >
                 Dress Code
               </Typography>
-              <Typography
-                variant="h4"
-                sx={{
-                  color: "white",
-                  m: "auto",
-                  fontSize: "1.5em",
-                  marginTop: "1em",
-                }}
-                className="fontCard"
-              >
-                ¡Noche de Gala!
-              </Typography>
-              <Typography
-                variant="body2"
-                sx={{ color: "white", m: "auto", marginTop: "1.5em" }}
-              >
-                Elegante
-              </Typography>
+              <Typography variant="h6" className="descriptionCard">Elegante</Typography>
             </Box>
             <Button
               onClick={handleOpen}
               variant="contained"
+              className="titleCard"
               sx={{
-                fontWeight: "900",
-                bgcolor: "white",
-                color: "black",
-                textTransform: "none",
-                width: "90%",
-                position: "relative",
-                top: "3%",
-                fontSize: "1em",
+                position: "absolute",
+                left: 0,
+                right: 0,
+                bottom: "35px",
+                bgcolor: "rgba(229, 166, 94)",
+                border: "solid 3px rgba(255, 255, 255,0.43)",
+                borderRadius: "5px",
                 ":hover": {
-                  backgroundColor: "white",
-                  color: "black",
-                  width: "95%",
-                  height: "25%",
+                  bgcolor:'white',
+                  color:'black'
                 },
               }}
-              className="fontCard2"
             >
               more info
             </Button>
@@ -436,12 +516,7 @@ function ImagenDeOro() {
               aria-describedby="modal-modal-description"
             >
               <Box sx={style}>
-                <Typography
-                  id="modal-modal-title"
-                  variant="h5"
-                  component="h2"
-                  color={"black"}
-                >
+                <Typography id="modal-modal-title" variant="h5" component="h2">
                   <u>
                     <b> Dress Code: Sweet Elegance</b>
                   </u>
@@ -507,7 +582,7 @@ function ImagenDeOro() {
               width: "52%",
               height: "27%",
             },
-            mt: "8%",
+            mt: "10%",
           }}
           className=""
         >

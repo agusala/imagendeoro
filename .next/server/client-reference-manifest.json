@@ -1,8 +1,8 @@
 {
   "__ssr_module_mapping__": {
-    "(app-client)/./public/logoImagenDeOroDorado.png": {
+    "(app-client)/./public/abstract-water-gold-1283722.jpg": {
       "": {
-        "id": "(sc_client)/./public/logoImagenDeOroDorado.png",
+        "id": "(sc_client)/./public/abstract-water-gold-1283722.jpg",
         "name": "",
         "chunks": [
           "app/page:app/page"
@@ -10,7 +10,7 @@
         "async": false
       },
       "*": {
-        "id": "(sc_client)/./public/logoImagenDeOroDorado.png",
+        "id": "(sc_client)/./public/abstract-water-gold-1283722.jpg",
         "name": "*",
         "chunks": [
           "app/page:app/page"
@@ -18,7 +18,59 @@
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./public/logoImagenDeOroDorado.png",
+        "id": "(sc_client)/./public/abstract-water-gold-1283722.jpg",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./public/luces.jpg": {
+      "": {
+        "id": "(sc_client)/./public/luces.jpg",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./public/luces.jpg",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/luces.jpg",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./public/premioimagendeoro.png": {
+      "": {
+        "id": "(sc_client)/./public/premioimagendeoro.png",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./public/premioimagendeoro.png",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/premioimagendeoro.png",
         "name": "default",
         "chunks": [
           "app/page:app/page"
@@ -159,13 +211,25 @@
   },
   "__edge_ssr_module_mapping__": {},
   "__entry_css_files__": {
-    "C:\\Users\\Usuario\\imagendeoro\\src\\app\\layout": [
+    "C:\\Users\\Usuario\\Desktop\\Programacion\\nextjs\\imagendeoro\\src\\app\\page": [
+      "static/css/app/page.css"
+    ],
+    "C:\\Users\\Usuario\\Desktop\\Programacion\\nextjs\\imagendeoro\\src\\app\\layout": [
       "static/css/_app-client_src_app_globals_css.css"
     ]
   },
-  "C:\\Users\\Usuario\\imagendeoro\\public\\logoImagenDeOroDorado.png": {
+  "C:\\Users\\Usuario\\Desktop\\Programacion\\nextjs\\imagendeoro\\pages\\imagendeoro\\imagendeoro.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/page.css"
+      ]
+    }
+  },
+  "C:\\Users\\Usuario\\Desktop\\Programacion\\nextjs\\imagendeoro\\public\\abstract-water-gold-1283722.jpg": {
     "": {
-      "id": "(app-client)/./public/logoImagenDeOroDorado.png",
+      "id": "(app-client)/./public/abstract-water-gold-1283722.jpg",
       "name": "",
       "chunks": [
         "app/page:app/page"
@@ -173,7 +237,7 @@
       "async": false
     },
     "*": {
-      "id": "(app-client)/./public/logoImagenDeOroDorado.png",
+      "id": "(app-client)/./public/abstract-water-gold-1283722.jpg",
       "name": "*",
       "chunks": [
         "app/page:app/page"
@@ -181,7 +245,7 @@
       "async": false
     },
     "default": {
-      "id": "(app-client)/./public/logoImagenDeOroDorado.png",
+      "id": "(app-client)/./public/abstract-water-gold-1283722.jpg",
       "name": "default",
       "chunks": [
         "app/page:app/page"
@@ -189,7 +253,59 @@
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\imagendeoro\\src\\app\\page.tsx": {
+  "C:\\Users\\Usuario\\Desktop\\Programacion\\nextjs\\imagendeoro\\public\\luces.jpg": {
+    "": {
+      "id": "(app-client)/./public/luces.jpg",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./public/luces.jpg",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./public/luces.jpg",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "C:\\Users\\Usuario\\Desktop\\Programacion\\nextjs\\imagendeoro\\public\\premioimagendeoro.png": {
+    "": {
+      "id": "(app-client)/./public/premioimagendeoro.png",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./public/premioimagendeoro.png",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./public/premioimagendeoro.png",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "C:\\Users\\Usuario\\Desktop\\Programacion\\nextjs\\imagendeoro\\src\\app\\page.tsx": {
     "": {
       "id": "(app-client)/./src/app/page.tsx",
       "name": "",
@@ -215,7 +331,7 @@
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\imagendeoro\\node_modules\\next\\dist\\client\\components\\app-router.js": {
+  "C:\\Users\\Usuario\\Desktop\\Programacion\\nextjs\\imagendeoro\\node_modules\\next\\dist\\client\\components\\app-router.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
@@ -241,7 +357,7 @@
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\imagendeoro\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js": {
+  "C:\\Users\\Usuario\\Desktop\\Programacion\\nextjs\\imagendeoro\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
@@ -267,7 +383,7 @@
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\imagendeoro\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
+  "C:\\Users\\Usuario\\Desktop\\Programacion\\nextjs\\imagendeoro\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
@@ -293,7 +409,7 @@
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\imagendeoro\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js": {
+  "C:\\Users\\Usuario\\Desktop\\Programacion\\nextjs\\imagendeoro\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
@@ -319,7 +435,7 @@
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\imagendeoro\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
+  "C:\\Users\\Usuario\\Desktop\\Programacion\\nextjs\\imagendeoro\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
@@ -345,7 +461,7 @@
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\imagendeoro\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js": {
+  "C:\\Users\\Usuario\\Desktop\\Programacion\\nextjs\\imagendeoro\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
@@ -371,7 +487,7 @@
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\imagendeoro\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
+  "C:\\Users\\Usuario\\Desktop\\Programacion\\nextjs\\imagendeoro\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
@@ -397,7 +513,7 @@
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\imagendeoro\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js": {
+  "C:\\Users\\Usuario\\Desktop\\Programacion\\nextjs\\imagendeoro\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
@@ -423,7 +539,7 @@
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\imagendeoro\\src\\app\\globals.css": {
+  "C:\\Users\\Usuario\\Desktop\\Programacion\\nextjs\\imagendeoro\\src\\app\\globals.css": {
     "default": {
       "id": "null",
       "name": "default",
