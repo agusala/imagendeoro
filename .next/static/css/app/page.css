@@ -60,11 +60,11 @@
     color: white;
   }
   .content-number-tempo {
-    height: 15vh;
-    margin-top: 0px;
-    margin-left: 0px;
-    width: 100%;
-    line-height: 1.5px;
+    height: 15vh !important;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    width: 100% !important;
+    line-height: 1.5px !important;
   }
   .title-date {
     font-family: "Prompt", sans-serif !important;
@@ -72,29 +72,29 @@
     font-size: 2.6em !important;
   }
   .contentCard1 {
-    border-left: 0px solid white;
-    border-right: 0px solid white;
+    border-left: 0px solid white !important;
+    border-right: 0px solid white !important;
   }
   .contentCard2 {
-    border-left: 0px solid white;
-    border-right: 0px solid white;
+    border-left: 0px solid white !important;
+    border-right: 0px solid white !important;
   }
   .contentCard3 {
-    border-left: 0px solid white;
-    border-right: 0px solid white;
+    border-left: 0px solid white !important;
+    border-right: 0px solid white !important;
   }
   
   .buttonCard{
-    left:60px;
-    right: 60px;
+    left:60px !important;
+    right: 60px !important;
   }
   .gridContent{
-    margin-left:0px;
-    width: 100%;
+    margin-left:0px !important;
+    width: 100% !important;
   }
   .buttonAsistencia{
-    width: 80%;
-    margin-top:25%
+    width: 80% !important;
+    margin-top:25% !important;
   }
 }
 
