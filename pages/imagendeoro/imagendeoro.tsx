@@ -202,9 +202,10 @@ function ImagenDeOro() {
               margin: "auto",
               zIndex: 10,
             }}
+            className="logo"
           />
         </Grid>
-        <Box textAlign="center" height={200} m="auto" mt={6}>
+        <Box textAlign="center" height={200} mt={6} className="content-tempo">
           <Typography
             variant="h3"
             component="h2"
@@ -214,6 +215,7 @@ function ImagenDeOro() {
             {timeLeft.llego == "" ? "SE ACERCA EL EVENTO" : ""}
           </Typography>
           <Grid
+          className="content-number-tempo"
             container
             spacing={3}
             sx={{
@@ -224,13 +226,13 @@ function ImagenDeOro() {
           >
             <Grid
               item
-              xs={2.5}
+              xs={2.2}
+              sm={1.5}
               sx={{
                 backgroundImage: `url(${Luces.src})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center center",
                 border: "solid 3px white",
-                boxShadow: "7px 7px 5px 0px rgba(229, 166, 94,0.43)",
                 borderRadius: "5px",
                 m: "10px",
                 pl: "0px!important",
@@ -239,18 +241,18 @@ function ImagenDeOro() {
             >
               <Typography variant="h1" component="h2" className="tempo">
                 {" "}
-                {timeLeft.llego == "" ? timeLeft.days + "D" : ""}
+                { timeLeft.days + "D" }
               </Typography>
             </Grid>
             <Grid
               item
-              xs={2.5}
+               xs={2.2}
+              sm={1.5}
               sx={{
                 backgroundImage: `url(${Luces.src})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center center",
                 border: "solid 3px white",
-                boxShadow: "7px 7px 5px 0px rgba(229, 166, 94,0.43)",
                 borderRadius: "5px",
                 m: "10px",
                 pl: "0px!important",
@@ -259,18 +261,18 @@ function ImagenDeOro() {
             >
               <Typography variant="h1" component="h2" className="tempo">
                 {" "}
-                {timeLeft.llego == "" ? timeLeft.hours + "H" : ""}
+                { timeLeft.hours + "H" }
               </Typography>
             </Grid>
             <Grid
               item
-              xs={2.5}
+               xs={2.2}
+              sm={1.5}
               sx={{
                 backgroundImage: `url(${Luces.src})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center center",
                 border: "solid 3px white",
-                boxShadow: "7px 7px 5px 0px rgba(229, 166, 94,0.43)",
                 borderRadius: "5px",
                 m: "10px",
                 pl: "0px!important",
@@ -279,18 +281,18 @@ function ImagenDeOro() {
             >
               <Typography variant="h1" component="h2" className="tempo">
                 {" "}
-                {timeLeft.llego == "" ? timeLeft.minutes + "M" : ""}
+                { timeLeft.minutes + "M" }
               </Typography>
             </Grid>
             <Grid
               item
-              xs={2.5}
+               xs={2.2}
+              sm={1.5}
               sx={{
                 backgroundImage: `url(${Luces.src})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center center",
                 border: "solid 3px white",
-                boxShadow: "7px 7px 5px 0px rgba(229, 166, 94,0.43)",
                 borderRadius: "5px",
                 m: "10px",
                 pl: "0px!important",
@@ -299,18 +301,31 @@ function ImagenDeOro() {
             >
               <Typography variant="h1" component="h2" className="tempo">
                 {" "}
-                {timeLeft.llego == "" ? timeLeft.second + "S" : ""}
+                { timeLeft.second + "S"}
               </Typography>
             </Grid>
           </Grid>
         </Box>
       </Box>
+      <Typography
+            variant="h3"
+            component="h2"
+            fontSize={30}
+            className="title-date"
+            mt={'10%'}
+            textAlign={'center'}
+            color={'white'}
+            
+          >
+            ¿ESTÁS LISTO...?
+          </Typography>
       <Grid
         container
         justifyContent="center"
         spacing={6}
         bgcolor={"black"}
-        mt="40vh "
+        mt="7% "
+        className="gridContent"
       >
         <Grid
           item
@@ -346,12 +361,13 @@ function ImagenDeOro() {
             <Button
               onClick={handleOpen1}
               variant="contained"
-              className="titleCard"
+              className="titleCard buttonCard"
               sx={{
                 position: "absolute",
                 left: 0,
                 right: 0,
                 bottom: "35px",
+                color:'black',
                 bgcolor: "rgba(229, 166, 94)",
                 border: "solid 3px rgba(255, 255, 255,0.43)",
                 borderRadius: "5px",
@@ -438,12 +454,13 @@ function ImagenDeOro() {
             <Button
               variant="contained"
               href="https://maps.app.goo.gl/XhZci374BsKoTJ3d9"
-              className="titleCard"
+              className="titleCard buttonCard"
               sx={{
                 position: "absolute",
                 left: 0,
                 right: 0,
                 bottom: "35px",
+                color:'black',
                 bgcolor: "rgba(229, 166, 94)",
                 border: "solid 3px rgba(255, 255, 255,0.43)",
                 borderRadius: "5px",
@@ -491,12 +508,13 @@ function ImagenDeOro() {
             <Button
               onClick={handleOpen}
               variant="contained"
-              className="titleCard"
+              className="titleCard buttonCard"
               sx={{
                 position: "absolute",
                 left: 0,
                 right: 0,
                 bottom: "35px",
+                color:'black',
                 bgcolor: "rgba(229, 166, 94)",
                 border: "solid 3px rgba(255, 255, 255,0.43)",
                 borderRadius: "5px",
@@ -564,27 +582,27 @@ function ImagenDeOro() {
         <Button
           onClick={handleOpenForm}
           variant="contained"
+          className="titleCard buttonAsistencia"
           sx={{
             textAlign: "center",
             m: "auto",
             mb: "5%",
             fontWeight: "900",
-            bgcolor: "white",
             color: "black",
             textTransform: "none",
             width: "50%",
             position: "relative",
             top: "3%",
             fontSize: "1em",
+            bgcolor: "white",
+            border: "solid 3px rgba(255, 255, 255,0.43)",
+            
             ":hover": {
-              backgroundColor: "white",
+              backgroundColor: "rgba(229, 166, 94)",
               color: "black",
-              width: "52%",
-              height: "27%",
             },
-            mt: "10%",
+            mt: "5%",
           }}
-          className=""
         >
           Confirmar Asistencia
         </Button>
