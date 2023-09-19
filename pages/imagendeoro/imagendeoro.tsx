@@ -186,7 +186,7 @@ function ImagenDeOro() {
           sx={{
             flexGrow: 1,
             textAlign: "center",
-            height: 550,
+            height: 500,
             m: "auto",
             paddingTop: "0vh",
             backgroundImage: `url(${FondoHeader.src})`,
