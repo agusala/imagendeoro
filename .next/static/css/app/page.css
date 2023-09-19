@@ -41,8 +41,8 @@
 
 @media (max-width: 480px) {
   .logo {
-    width: 25vh;
-    height: 25vh;
+    width: 25vh !important;
+    height: 25vh !important;
   }
   .title-tempo {
     font-family: "Prompt", sans-serif !important;
