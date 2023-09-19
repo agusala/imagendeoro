@@ -115,7 +115,7 @@ function ImagenDeOro() {
           textAlign={"center"}
           className="title-modal"
         >
-          {"WELCOME"}
+          {"BIENVENIDO"}
         </DialogTitle>
         <DialogContent style={{ backgroundColor: "#f4e0d3" }}>
           <DialogContentText
@@ -131,7 +131,7 @@ function ImagenDeOro() {
               }}
               onClick={handleCloseModal}
             >
-              see invitation
+              VER INVITACIÓN
             </Button>
           </DialogActions>
         </DialogContent>
@@ -379,7 +379,7 @@ function ImagenDeOro() {
                 },
               }}
             >
-              more info
+             Ver Más
             </Button>
             <Modal
               open={open1}
@@ -392,22 +392,14 @@ function ImagenDeOro() {
                   id="modal-modal-description"
                   variant="body1"
                   component="h2"
+                  color=' #515151'
                 >
                   <u>
-                    <b> Importante:</b>
+                    <b style={{color:'black'}}> Importante:</b>
                   </u>
                   Nos gustaría informar amablemente a nuestros invitados que
-                  este es un evento solo para adultos.
-                  <br />
-                  <u>
-                    <b>Cronograma del evento:</b>
-                  </u>{" "}
-                  El recinto del evento abrirá sus puertas a las 20:00 horas
-                  para recibir a nuestros invitados. El programa principal
-                  comenzará puntualmente a las 8:30 p.m. Nosotros Recomendamos
-                  llegar temprano para disfrutar plenamente de la experiencia.
-                  Cualquier duda contactenos por nuestros canales
-                  -correo:la.imagendeoro@gmail.com -tel:3571564671
+                  este es un evento solo para adultos
+                  -correo: la.imagendeoro@gmail.com -tel:3571564671
                   <br />
                 </Typography>
                 <Typography
@@ -448,7 +440,7 @@ function ImagenDeOro() {
               gutterBottom
               className="titleCard"
             >
-              Ubicacion
+              Ubicación
             </Typography>
             <Typography variant="h6" className="descriptionCard">
               O'clock Eventos
@@ -472,7 +464,7 @@ function ImagenDeOro() {
                 },
               }}
             >
-              map
+              Ver Mapa
             </Button>
           </Card>
         </Grid>
@@ -526,7 +518,7 @@ function ImagenDeOro() {
                 },
               }}
             >
-              more info
+              Ver Más
             </Button>
 
             <Modal
@@ -536,9 +528,9 @@ function ImagenDeOro() {
               aria-describedby="modal-modal-description"
             >
               <Box sx={style}>
-                <Typography id="modal-modal-title" variant="h5" component="h2">
+                <Typography id="modal-modal-title" variant="h5" component="h2" color={'black'}>
                   <u>
-                    <b> Dress Code: Sweet Elegance</b>
+                    <b> Dress Code: Elegante</b>
                   </u>
                 </Typography>
                 <Typography
@@ -549,31 +541,8 @@ function ImagenDeOro() {
                   color={"black"}
                 >
                   Nos complace invitarlos a nuestro próximo evento, donde la
-                  elegancia será la clave, pero sin la necesidad de adoptar un
-                  enfoque extremadamente formal. Queremos que todos se sientan
-                  cómodos y a la moda mientras disfrutan de una velada especial.
+                  elegancia será la clave.
                   {<br />}
-                  <u>
-                    <b>Para Hombres:</b>
-                  </u>{" "}
-                  Les pedimos que opten por un atuendo elegante, pero sin
-                  necesidad de usar esmoquin o trajes formales. Un buen traje
-                  con una camisa de vestir será perfecto. También pueden
-                  considerar un blazer con pantalones de vestir y una corbata
-                  elegante. La idea es lucir sofisticados sin sentirse demasiado
-                  rígidos.{<br />}
-                  <u>
-                    <b>Para Mujeres:</b>
-                  </u>{" "}
-                  Les invitamos a lucir su estilo y elegancia personal. Vestidos
-                  hermosos hasta la rodilla o pantalones con blusas elegantes
-                  son opciones fantásticas. Sientan la libertad de añadir toques
-                  de glamour con accesorios llamativos o joyas deslumbrantes. La
-                  idea es sentirse glamorosas y seguras de sí mismas.{<br />}
-                  Esperamos compartir este evento especial con todos ustedes en
-                  una atmósfera elegante pero relajada, donde la moda se
-                  encuentra con la comodidad y la diversión. ¡Estamos ansiosos
-                  por verlos y pasar un tiempo maravilloso juntos!
                 </Typography>
               </Box>
             </Modal>
