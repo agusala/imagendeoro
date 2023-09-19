@@ -186,11 +186,13 @@ function ImagenDeOro() {
           sx={{
             flexGrow: 1,
             textAlign: "center",
-            height: 400,
+            height: 550,
             m: "auto",
             paddingTop: "0vh",
             backgroundImage: `url(${FondoHeader.src})`,
             zIndex: -1,
+            backgroundRepeat:'no-repeat',
+            backgroundSize:'cover'
           }}
         >
           <Image
@@ -239,7 +241,7 @@ function ImagenDeOro() {
                 pt: "0px!important",
               }}
             >
-              <Typography variant="h1" component="h2" className="tempo">
+              <Typography variant="h1" component="h2" className="tempo" color={'white'}> 
                 {" "}
                 { timeLeft.days + "D" }
               </Typography>
@@ -259,7 +261,7 @@ function ImagenDeOro() {
                 pt: "0px!important",
               }}
             >
-              <Typography variant="h1" component="h2" className="tempo">
+              <Typography variant="h1" component="h2" className="tempo" color={'white'}>
                 {" "}
                 { timeLeft.hours + "H" }
               </Typography>
@@ -279,7 +281,7 @@ function ImagenDeOro() {
                 pt: "0px!important",
               }}
             >
-              <Typography variant="h1" component="h2" className="tempo">
+              <Typography variant="h1" component="h2" className="tempo" color={'white'}> 
                 {" "}
                 { timeLeft.minutes + "M" }
               </Typography>
@@ -299,7 +301,7 @@ function ImagenDeOro() {
                 pt: "0px!important",
               }}
             >
-              <Typography variant="h1" component="h2" className="tempo">
+              <Typography variant="h1" component="h2" className="tempo" color={'white'}>
                 {" "}
                 { timeLeft.second + "S"}
               </Typography>
