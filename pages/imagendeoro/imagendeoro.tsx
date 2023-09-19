@@ -399,17 +399,14 @@ function ImagenDeOro() {
                   </u>
                   Nos gustaría informar amablemente a nuestros invitados que
                   este es un evento solo para adultos
-                  -correo: la.imagendeoro@gmail.com -tel:3571564671
                   <br />
+                  <br />
+                  <b>correo:</b> la.imagendeoro@gmail.com 
+                  <br />
+                  <b>tel:</b>3571564671
+                 
                 </Typography>
-                <Typography
-                  id="modal-modal-description"
-                  variant="body1"
-                  component="h2"
-                >
-                  Estamos emocionados de compartir este evento especial con
-                  usted. Gracias por ser parte de ello!
-                </Typography>
+                <br />
               </Box>
             </Modal>
           </Card>
@@ -543,7 +540,13 @@ function ImagenDeOro() {
                   Nos complace invitarlos a nuestro próximo evento, donde la
                   elegancia será la clave.
                   {<br />}
+                  <br />
+                  <b>correo:</b> la.imagendeoro@gmail.com 
+                  <br />
+                  <b>tel:</b>3571564671
+                 
                 </Typography>
+                <br />
               </Box>
             </Modal>
           </Card>
