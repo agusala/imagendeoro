@@ -117,7 +117,7 @@ function ImagenDeOro() {
         >
           {"BIENVENIDO"}
         </DialogTitle>
-        <DialogContent style={{ backgroundColor: "#f4e0d3" }}>
+        <DialogContent style={{ backgroundColor: "rgba(229, 166, 94)" }}>
           <DialogContentText
             id="alert-dialog-slide-description"
             textAlign={"center"}
