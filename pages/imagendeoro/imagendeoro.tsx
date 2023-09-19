@@ -590,7 +590,7 @@ function ImagenDeOro() {
         <Box sx={style} style={{ width: 900, height: "100%" }} className="form">
           <iframe
             className="form2"
-            src="https://docs.google.com/forms/d/e/1FAIpQLSf9M83oThvBEK1ie3FMyEYTEBK46KNDzvFXpPyiyix1YwNZgg/viewform?embedded=true"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSfcHJk7vss47vwQkiOuiiihLNWDTi3RObJ_dCEY-yQvIYu_wA/viewform?embedded=true"
             width="100%"
             height={"100%"}
           >
