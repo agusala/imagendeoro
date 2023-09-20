@@ -55,11 +55,14 @@
 
 @media (max-width: 480px) {
   .logo {
-    width: 25vh !important;
-    height: 25vh !important;
+    width: 36vh !important;
+    height: 20vh !important;
+  }
+  .imagenDorada{
+    width: 145% !important;
   }
   .title-tempo {
-    font-family: "Prompt", sans-serif !important;
+    font-family: 'Anantha Signature'!important;
     font-weight: 700 !important;
     font-size: 3em !important;
   }
@@ -81,21 +84,24 @@
     line-height: 1.5px !important;
   }
   .title-date {
-    font-family: "Prompt", sans-serif !important;
+    font-family: 'Anantha Signature'!important;
     font-weight: 500 !important;
     font-size: 2.6em !important;
   }
   .contentCard1 {
     border-left: 0px solid white !important;
     border-right: 0px solid white !important;
+    
   }
   .contentCard2 {
     border-left: 0px solid white !important;
     border-right: 0px solid white !important;
+    margin-top: 40%!important;
   }
   .contentCard3 {
     border-left: 0px solid white !important;
     border-right: 0px solid white !important;
+    margin-top: 40%!important;
   }
   
   .buttonCard{
@@ -108,7 +114,11 @@
   }
   .buttonAsistencia{
     width: 80% !important;
-    margin-top:25% !important;
+    margin-top:62% !important;
+  }
+  .fondoDorado{
+    height: 136%!important;
+    margin-bottom: -7em!important;
   }
 }
 

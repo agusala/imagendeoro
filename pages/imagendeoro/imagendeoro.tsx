@@ -207,7 +207,7 @@ function ImagenDeOro() {
         <Grid
           container
           textAlign={"center"}
-          className="content-header"
+          
           sx={{
             flexGrow: 1,
             textAlign: "center",
@@ -226,6 +226,7 @@ function ImagenDeOro() {
               margin: "-8em auto auto auto",
               zIndex: 10,
             }}
+            className="imagenDorada"
           />
         </Grid>
         
@@ -341,7 +342,7 @@ function ImagenDeOro() {
             color={'white'}
             
           >
-            ¿ESTÁS LISTO...?
+            ¿ESTÁS LISTO?
           </Typography>
       <Grid
         container
@@ -364,7 +365,8 @@ function ImagenDeOro() {
             width:"100%",
             height:"110%",
             marginBottom:'-5em'
-          }} />
+          }}
+          className="fondoDorado" />
           <Card
             className="card"
             sx={{
@@ -452,7 +454,8 @@ function ImagenDeOro() {
             width:"100%",
             height:"110%",
             marginBottom:'-5em'
-          }} />
+          }}
+          className="fondoDorado" />
           <Card
             className="card"
             sx={{
@@ -512,7 +515,8 @@ function ImagenDeOro() {
             width:"100%",
             height:"110%",
             marginBottom:'-5em'
-          }} />
+          }} 
+          className="fondoDorado"/>
           <Card
             sx={{
               backgroundColor: "#111111",
