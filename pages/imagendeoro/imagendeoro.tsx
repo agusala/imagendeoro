@@ -16,9 +16,9 @@ import {
 } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import LogoIOColor from "../../public/premioimagendeoro.png";
-import FondoHeader from "../../public/abstract-water-gold-1283722.jpg";
+import FondoHeader from "../../public/cinta1.jpg";
 import Pintura from "../../public/pintura.png";
-import Disco from "../../public/disco.png";
+import Disco from "../../public/circuloDorado.png";
 import PolvoDorado from "../../public/PolvoDorado.png";
 import Dorado from "../../public/pintura.png";
 import Luces from "../../public/luces.jpg";
@@ -93,7 +93,7 @@ function ImagenDeOro() {
     left: "50%",
     transform: "translate(-50%, -50%)",
     width: 400,
-    bgcolor: "background.paper",
+    bgcolor: "#070707",
     border: "2px solid #000",
     boxShadow: 24,
     p: 4,
@@ -101,7 +101,7 @@ function ImagenDeOro() {
 
   const imgURL = "../../public/abstract-water-gold-1283722.jpg";
   return (
-    <div style={{ backgroundColor: "black" }}>
+    <div style={{ backgroundColor: "#070707" }}>
       <Dialog
         open={openModal}
         keepMounted
@@ -176,7 +176,7 @@ function ImagenDeOro() {
       </Box>
       <Box
         sx={{
-          backgroundColor: "black",
+          backgroundColor: "#070707",
         }}
       >
         <Grid
@@ -189,25 +189,47 @@ function ImagenDeOro() {
             height: 500,
             m: "auto",
             paddingTop: "0vh",
-            backgroundImage: `url(${FondoHeader.src})`,
-            zIndex: -1,
-            backgroundRepeat:'no-repeat',
-            backgroundSize:'cover'
+            zIndex:200
           }}
         >
           <Image
             src={LogoIOColor}
             alt="Picture of the author"
             style={{
-              width: "50vh",
-              height: "50vh",
+              width: "30em",
+              height: "15em",
               margin: "auto",
               zIndex: 10,
             }}
             className="logo"
           />
         </Grid>
-        <Box textAlign="center" height={200} mt={6} className="content-tempo">
+        <Grid
+          container
+          textAlign={"center"}
+          className="content-header"
+          sx={{
+            flexGrow: 1,
+            textAlign: "center",
+            height: 400,
+            m: "auto",
+            paddingTop: "0vh",
+            zIndex:-1
+          }}
+        >
+          <Image
+            src={FondoHeader}
+            alt="Picture of the author"
+            style={{
+              width: "100%",
+              height: "100%",
+              margin: "-8em auto auto auto",
+              zIndex: 10,
+            }}
+          />
+        </Grid>
+        
+        <Box textAlign="center" height={200} mt={'-8em'} className="content-tempo" zIndex={200}>
           <Typography
             variant="h3"
             component="h2"
@@ -325,7 +347,7 @@ function ImagenDeOro() {
         container
         justifyContent="center"
         spacing={6}
-        bgcolor={"black"}
+        bgcolor={"#070707"}
         mt="7% "
         className="gridContent"
       >
@@ -338,15 +360,21 @@ function ImagenDeOro() {
           pt="0px!important"
           height={"12em"}
         >
+          <Image src={Disco} alt={""} style={{
+            width:"100%",
+            height:"100%",
+            marginBottom:'-5em'
+          }} />
           <Card
             className="card"
             sx={{
-              backgroundColor: "black",
+              backgroundColor: "#111111",
               color: "white",
               textAlign: "center",
               m: "10%",
               height: "100%",
               position: "relative",
+              p:'1em'
             }}
           >
             <Typography
@@ -366,9 +394,9 @@ function ImagenDeOro() {
               className="titleCard buttonCard"
               sx={{
                 position: "absolute",
-                left: 0,
-                right: 0,
-                bottom: "35px",
+                left: '10px',
+                right: '10px',
+                bottom: '10px',
                 color:'black',
                 bgcolor: "rgba(229, 166, 94)",
                 border: "solid 3px rgba(255, 255, 255,0.43)",
@@ -420,15 +448,21 @@ function ImagenDeOro() {
           pt="0px!important"
           height={"12em"}
         >
+          <Image src={Disco} alt={""} style={{
+            width:"100%",
+            height:"100%",
+            marginBottom:'-5em'
+          }} />
           <Card
             className="card"
             sx={{
-              backgroundColor: "black",
+              backgroundColor: "#111111",
               color: "white",
               textAlign: "center",
               m: "10%",
               height: "100%",
               position: "relative",
+              p:'1em'
             }}
           >
             <Typography
@@ -448,9 +482,9 @@ function ImagenDeOro() {
               className="titleCard buttonCard"
               sx={{
                 position: "absolute",
-                left: 0,
-                right: 0,
-                bottom: "35px",
+                left: '10px',
+                right: '10px',
+                bottom: '10px',
                 color:'black',
                 bgcolor: "rgba(229, 166, 94)",
                 border: "solid 3px rgba(255, 255, 255,0.43)",
@@ -474,14 +508,20 @@ function ImagenDeOro() {
           pt="0px!important"
           height={"12em"}
         >
+          <Image src={Disco} alt={""} style={{
+            width:"100%",
+            height:"100%",
+            marginBottom:'-5em'
+          }} />
           <Card
             sx={{
-              backgroundColor: "black",
+              backgroundColor: "#111111",
               color: "white",
               textAlign: "center",
               m: "10%",
               height: "100%",
               position: "relative",
+              p:'1em',              
             }}
             className="card"
           >
@@ -502,9 +542,9 @@ function ImagenDeOro() {
               className="titleCard buttonCard"
               sx={{
                 position: "absolute",
-                left: 0,
-                right: 0,
-                bottom: "35px",
+                left: '10px',
+                right: '10px',
+                bottom: '10px',
                 color:'black',
                 bgcolor: "rgba(229, 166, 94)",
                 border: "solid 3px rgba(255, 255, 255,0.43)",
@@ -552,7 +592,7 @@ function ImagenDeOro() {
           </Card>
         </Grid>
       </Grid>
-      <Box textAlign={"center"} m={"auto"} bgcolor={"black"}>
+      <Box textAlign={"center"} m={"auto"} bgcolor={"#070707"}>
         <Button
           onClick={handleOpenForm}
           variant="contained"
@@ -575,7 +615,7 @@ function ImagenDeOro() {
               backgroundColor: "rgba(229, 166, 94)",
               color: "black",
             },
-            mt: "5%",
+            mt: "20%",
           }}
         >
           Confirmar Asistencia
@@ -587,7 +627,7 @@ function ImagenDeOro() {
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
       >
-        <Box sx={style} style={{ width: 900, height: "100%" }} className="form">
+        <Box sx={style} style={{ width: 900, height: "100%", }} className="form">
           <iframe
             className="form2"
             src="https://docs.google.com/forms/d/e/1FAIpQLSfcHJk7vss47vwQkiOuiiihLNWDTi3RObJ_dCEY-yQvIYu_wA/viewform?embedded=true"

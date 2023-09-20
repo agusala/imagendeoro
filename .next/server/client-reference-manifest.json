@@ -1,8 +1,8 @@
 {
   "__ssr_module_mapping__": {
-    "(app-client)/./public/abstract-water-gold-1283722.jpg": {
+    "(app-client)/./public/cinta1.jpg": {
       "": {
-        "id": "(sc_client)/./public/abstract-water-gold-1283722.jpg",
+        "id": "(sc_client)/./public/cinta1.jpg",
         "name": "",
         "chunks": [
           "app/page:app/page"
@@ -10,7 +10,7 @@
         "async": false
       },
       "*": {
-        "id": "(sc_client)/./public/abstract-water-gold-1283722.jpg",
+        "id": "(sc_client)/./public/cinta1.jpg",
         "name": "*",
         "chunks": [
           "app/page:app/page"
@@ -18,7 +18,33 @@
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./public/abstract-water-gold-1283722.jpg",
+        "id": "(sc_client)/./public/cinta1.jpg",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./public/circuloDorado.png": {
+      "": {
+        "id": "(sc_client)/./public/circuloDorado.png",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./public/circuloDorado.png",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/circuloDorado.png",
         "name": "default",
         "chunks": [
           "app/page:app/page"
@@ -227,9 +253,9 @@
       ]
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Programacion\\nextjs\\imagendeoro\\public\\abstract-water-gold-1283722.jpg": {
+  "C:\\Users\\Usuario\\Desktop\\Programacion\\nextjs\\imagendeoro\\public\\cinta1.jpg": {
     "": {
-      "id": "(app-client)/./public/abstract-water-gold-1283722.jpg",
+      "id": "(app-client)/./public/cinta1.jpg",
       "name": "",
       "chunks": [
         "app/page:app/page"
@@ -237,7 +263,7 @@
       "async": false
     },
     "*": {
-      "id": "(app-client)/./public/abstract-water-gold-1283722.jpg",
+      "id": "(app-client)/./public/cinta1.jpg",
       "name": "*",
       "chunks": [
         "app/page:app/page"
@@ -245,7 +271,33 @@
       "async": false
     },
     "default": {
-      "id": "(app-client)/./public/abstract-water-gold-1283722.jpg",
+      "id": "(app-client)/./public/cinta1.jpg",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "C:\\Users\\Usuario\\Desktop\\Programacion\\nextjs\\imagendeoro\\public\\circuloDorado.png": {
+    "": {
+      "id": "(app-client)/./public/circuloDorado.png",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./public/circuloDorado.png",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./public/circuloDorado.png",
       "name": "default",
       "chunks": [
         "app/page:app/page"
