@@ -123,14 +123,14 @@
 }
 @media (min-width:1400px) {
   .fondoDorado{
-    height: 162%!important;
+    height: 170%!important;
     margin-bottom: -7em!important;
   }
   .title-date{
     margin-top:3em!important;
   }
   .content-number-tempo{
-    height: 50vh!important;
+    height: 40vh!important;
   }
 }
 
