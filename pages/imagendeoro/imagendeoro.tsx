@@ -243,7 +243,7 @@ function ImagenDeOro() {
             container
             spacing={3}
             sx={{
-              height: "50vh",
+              height: "30vh",
               alignContent: "center",
               justifyContent: "center",
             }}
@@ -336,7 +336,7 @@ function ImagenDeOro() {
             component="h2"
             fontSize={30}
             className="title-date"
-            mt={'10%'}
+            mt={''}
             textAlign={'center'}
             color={'white'}
             
@@ -362,7 +362,7 @@ function ImagenDeOro() {
         >
           <Image src={Disco} alt={""} style={{
             width:"100%",
-            height:"100%",
+            height:"110%",
             marginBottom:'-5em'
           }} />
           <Card
@@ -398,7 +398,7 @@ function ImagenDeOro() {
                 right: '10px',
                 bottom: '10px',
                 color:'black',
-                bgcolor: "rgba(229, 166, 94)",
+                bgcolor: "#ffc34a",
                 border: "solid 3px rgba(255, 255, 255,0.43)",
                 borderRadius: "5px",
                 ":hover": {
@@ -450,7 +450,7 @@ function ImagenDeOro() {
         >
           <Image src={Disco} alt={""} style={{
             width:"100%",
-            height:"100%",
+            height:"110%",
             marginBottom:'-5em'
           }} />
           <Card
@@ -486,7 +486,7 @@ function ImagenDeOro() {
                 right: '10px',
                 bottom: '10px',
                 color:'black',
-                bgcolor: "rgba(229, 166, 94)",
+                bgcolor: "#ffc34a",
                 border: "solid 3px rgba(255, 255, 255,0.43)",
                 borderRadius: "5px",
                 ":hover": {
@@ -510,7 +510,7 @@ function ImagenDeOro() {
         >
           <Image src={Disco} alt={""} style={{
             width:"100%",
-            height:"100%",
+            height:"110%",
             marginBottom:'-5em'
           }} />
           <Card
@@ -546,7 +546,7 @@ function ImagenDeOro() {
                 right: '10px',
                 bottom: '10px',
                 color:'black',
-                bgcolor: "rgba(229, 166, 94)",
+                bgcolor: "#ffc34a",
                 border: "solid 3px rgba(255, 255, 255,0.43)",
                 borderRadius: "5px",
                 ":hover": {
@@ -612,13 +612,13 @@ function ImagenDeOro() {
             border: "solid 3px rgba(255, 255, 255,0.43)",
             
             ":hover": {
-              backgroundColor: "rgba(229, 166, 94)",
+              backgroundColor: "#ffc34a",
               color: "black",
             },
             mt: "20%",
           }}
         >
-          Confirmar Asistencia
+          <b>CONFIRMAR ASISTENCIA</b>
         </Button>
       </Box>
       <Modal
