@@ -235,6 +235,7 @@ function ImagenDeOro() {
             variant="h3"
             component="h2"
             fontSize={30}
+            color={'white'}
             className="title-tempo"
           >
             {timeLeft.llego == "" ? "SE ACERCA EL EVENTO" : ""}
