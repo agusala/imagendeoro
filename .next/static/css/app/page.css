@@ -28,7 +28,10 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-
+.gridContent{
+  margin-left:0px !important;
+  width: 100% !important;
+}
 .title-tempo {
   font-family: 'Anantha Signature' !important;
   font-weight: 500 !important;
@@ -131,6 +134,10 @@
   }
   .content-number-tempo{
     height: 40vh!important;
+  }
+  .gridContent{
+    margin-left:0px !important;
+    width: 100% !important;
   }
 }
 
