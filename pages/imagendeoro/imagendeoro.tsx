@@ -435,10 +435,10 @@ function ImagenDeOro() {
                   id="modal-modal-description"
                   variant="body1"
                   component="h2"
-                  color=" #515151"
+                  color='white'
                 >
                   <u>
-                    <b style={{ color: "black" }}> Importante:</b>
+                    <b style={{color:'black'}}> Importante:</b>
                   </u>
                   Nos gustaría informar amablemente a nuestros invitados que
                   este es un evento solo para adultos
@@ -591,12 +591,7 @@ function ImagenDeOro() {
               aria-describedby="modal-modal-description"
             >
               <Box sx={style}>
-                <Typography
-                  id="modal-modal-title"
-                  variant="h5"
-                  component="h2"
-                  color={"black"}
-                >
+                <Typography id="modal-modal-title" variant="h5" component="h2" color={'black'}>
                   <u>
                     <b> Dress Code: Elegante</b>
                   </u>
@@ -606,7 +601,7 @@ function ImagenDeOro() {
                   variant="body1"
                   component="h2"
                   sx={{ mt: 2 }}
-                  color={"black"}
+                  color={"white"}
                 >
                   Nos complace invitarlos a nuestro próximo evento, donde la
                   elegancia será la clave.
