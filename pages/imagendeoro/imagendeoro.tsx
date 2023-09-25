@@ -22,7 +22,7 @@ import Disco from "../../public/circuloDorado.png";
 import PolvoDorado from "../../public/PolvoDorado.png";
 import Dorado from "../../public/pintura.png";
 import Luces from "../../public/luces.jpg";
-import Cinta from "../../public/cinta.png";
+import Cinta from "../../public/cinta1.jpg";
 import Image from "next/image";
 import { url } from "inspector";
 import "./imagendeoro.css";
@@ -102,7 +102,7 @@ function ImagenDeOro() {
     boxShadow: 24,
     p: 4,
   };
-
+console.log(Cinta)
   const imgURL = "../../public/abstract-water-gold-1283722.jpg";
   return (
     <div style={{ backgroundColor: "#070707" }}>
