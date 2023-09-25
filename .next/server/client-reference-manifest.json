@@ -52,6 +52,32 @@
         "async": false
       }
     },
+    "(app-client)/./public/coop.png": {
+      "": {
+        "id": "(sc_client)/./public/coop.png",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./public/coop.png",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/coop.png",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./public/luces.jpg": {
       "": {
         "id": "(sc_client)/./public/luces.jpg",
@@ -71,6 +97,58 @@
       },
       "default": {
         "id": "(sc_client)/./public/luces.jpg",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./public/muni.png": {
+      "": {
+        "id": "(sc_client)/./public/muni.png",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./public/muni.png",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/muni.png",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./public/pany.png": {
+      "": {
+        "id": "(sc_client)/./public/pany.png",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./public/pany.png",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/pany.png",
         "name": "default",
         "chunks": [
           "app/page:app/page"
@@ -305,6 +383,32 @@
       "async": false
     }
   },
+  "C:\\Users\\Usuario\\Desktop\\Programacion\\nextjs\\imagendeoro\\public\\coop.png": {
+    "": {
+      "id": "(app-client)/./public/coop.png",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./public/coop.png",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./public/coop.png",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
   "C:\\Users\\Usuario\\Desktop\\Programacion\\nextjs\\imagendeoro\\public\\luces.jpg": {
     "": {
       "id": "(app-client)/./public/luces.jpg",
@@ -324,6 +428,58 @@
     },
     "default": {
       "id": "(app-client)/./public/luces.jpg",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "C:\\Users\\Usuario\\Desktop\\Programacion\\nextjs\\imagendeoro\\public\\muni.png": {
+    "": {
+      "id": "(app-client)/./public/muni.png",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./public/muni.png",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./public/muni.png",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "C:\\Users\\Usuario\\Desktop\\Programacion\\nextjs\\imagendeoro\\public\\pany.png": {
+    "": {
+      "id": "(app-client)/./public/pany.png",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./public/pany.png",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./public/pany.png",
       "name": "default",
       "chunks": [
         "app/page:app/page"

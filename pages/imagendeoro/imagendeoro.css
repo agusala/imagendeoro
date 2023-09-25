@@ -62,7 +62,7 @@
     width: 145% !important;
   }
   .title-tempo {
-    font-family: 'Anantha Signature'!important;
+    font-family: 'Anantha Signature' !important;
     font-weight: 700 !important;
     font-size: 3em !important;
   }
@@ -86,7 +86,7 @@
   .title-date {
     font-family: 'Anantha Signature'!important;
     font-weight: 500 !important;
-    font-size: 2.6em !important;
+    font-size: 2em !important;
   }
   .contentCard1 {
     border-left: 0px solid white !important;
@@ -96,7 +96,7 @@
   .contentCard2 {
     border-left: 0px solid white !important;
     border-right: 0px solid white !important;
-    margin-top: 40%!important;
+    margin-top: 40% !important;
   }
   .contentCard3 {
     border-left: 0px solid white !important;
@@ -120,6 +120,14 @@
     height: 136%!important;
     margin-bottom: -7em!important;
   }
+  .imageEmpresas{
+    width: 80%;
+    height: 100%;
+  }
+  .imageEmpresas1{
+    width: 100%;
+    height: 80%;
+  }
 }
 @media (min-width:1400px) {
   .fondoDorado{
@@ -137,3 +145,41 @@
     width: 100% !important;
   }
 }
+
+/* .imagenDorada {
+  width: 100%;
+  height: 100%;
+  animation: rotateVertical 2s linear 1;
+  animation-delay: 0s;
+    transform-style: preserve-3d; /* Retraso para que la animación comience después de 1 segundo *
+}
+
+  @keyframes rotateVertical {
+    0% {
+        transform: rotateX(0deg) translateX(-100%); 
+    }
+    12.5% {
+        transform: rotateX(0deg) translateX(-87.5%); 
+    }
+    25% {
+        transform: rotateX(90deg)translateX(-75%);
+    }
+    37.5% {
+      transform: rotateX(0deg) translateX(-62.5%); 
+  }
+    50% {
+        transform: rotateX(180deg) translateX(-50%);
+    }
+    62.5% {
+      transform: rotateX(0deg) translateX(-37.5%); 
+  }
+    75% {
+        transform: rotateX(270deg) translateX(-25%);
+    }
+    87.5% {
+      transform: rotateX(0deg) translateX(-12.5%); 
+  }
+    100% {
+        transform: rotateX(360deg) translateX(0%);
+    } 
+}*/
