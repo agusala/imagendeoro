@@ -437,16 +437,14 @@ console.log(Cinta)
                   component="h2"
                   color='white'
                 >
-                  <u>
-                    <b style={{color:'black'}}> Importante:</b>
-                  </u>
+                    <b style={{color:'white',textDecoration:'underline'}}> Importante:</b><br/>
                   Nos gustaría informar amablemente a nuestros invitados que
                   este es un evento solo para adultos
                   <br />
                   <br />
-                  <b>correo:</b> la.imagendeoro@gmail.com
+                  <b style={{color:'white',textDecoration:'underline'}}>correo:</b> la.imagendeoro@gmail.com
                   <br />
-                  <b>tel:</b>3571564671
+                  <b style={{color:'white',textDecoration:'underline'}}>tel:</b>3571564671
                 </Typography>
                 <br />
               </Box>
@@ -592,9 +590,7 @@ console.log(Cinta)
             >
               <Box sx={style}>
                 <Typography id="modal-modal-title" variant="h5" component="h2" color={'black'}>
-                  <u>
-                    <b> Dress Code: Elegante</b>
-                  </u>
+                    <b style={{color:'white',textDecoration:'underline'}}> Dress Code: Elegante</b>
                 </Typography>
                 <Typography
                   id="modal-modal-description"
@@ -607,9 +603,9 @@ console.log(Cinta)
                   elegancia será la clave.
                   {<br />}
                   <br />
-                  <b>correo:</b> la.imagendeoro@gmail.com
+                  <b style={{color:'white',textDecoration:'underline'}}> correo:</b> la.imagendeoro@gmail.com
                   <br />
-                  <b>tel:</b>3571564671
+                  <b style={{color:'white',textDecoration:'underline'}}>tel:</b>3571564671
                 </Typography>
                 <br />
               </Box>
