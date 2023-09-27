@@ -27,9 +27,9 @@ import Image from "next/image";
 import { url } from "inspector";
 import "./imagendeoro.css";
 import { ConfettiComponent } from "@/shared/components/confetti/confetti";
-import Pauny from '../../public/pany.png'
-import Coop from '../../public/coop.png'
-import Muni from '../../public/muni.png'
+import Pauny from "../../public/pany.png";
+import Coop from "../../public/coop.png";
+import Muni from "../../public/muni.png";
 
 function ImagenDeOro() {
   const [open, setOpen] = React.useState(false);
@@ -39,6 +39,10 @@ function ImagenDeOro() {
   const [open1, setOpen1] = React.useState(false);
   const handleOpen1 = () => setOpen1(true);
   const handleClose1 = () => setOpen1(false);
+
+  const [open4, setOpen4] = React.useState(false);
+  const handleOpen4 = () => setOpen4(true);
+  const handleClose4 = () => setOpen4(false);
 
   const [openForm, setOpenForm] = React.useState(false);
   const handleOpenForm = () => setOpenForm(true);
@@ -102,7 +106,8 @@ function ImagenDeOro() {
     boxShadow: 24,
     p: 4,
   };
-console.log(Cinta)
+
+  
   const imgURL = "../../public/abstract-water-gold-1283722.jpg";
   return (
     <div style={{ backgroundColor: "#070707" }}>
@@ -337,22 +342,6 @@ console.log(Cinta)
         ¿ESTÁS LISTO?
       </Typography>
 
-      <Grid container 
-      justifyContent="center"
-      textAlign={'center'}
-      pt={20}>
-       
-        <Grid item xs={4}>
-          <Image src={Pauny} alt={""} width={300} className="imageEmpresas"></Image>
-        </Grid>
-        <Grid item xs={4}>
-          <Image src={Muni} alt={""} height={175} className="imageEmpresas1"></Image>
-        </Grid>
-        <Grid item xs={4}>
-          <Image src={Coop} alt={""} width={300} className="imageEmpresas"></Image>
-        </Grid>
-      </Grid>
-
       <Grid
         container
         justifyContent="center"
@@ -364,7 +353,7 @@ console.log(Cinta)
         <Grid
           item
           xs={12}
-          sm={3}
+          sm={4}
           className="contentCard1"
           pl="0px!important"
           pt="0px!important"
@@ -373,10 +362,9 @@ console.log(Cinta)
           <Image
             src={Disco}
             alt={""}
+            width={425}
             style={{
-              width: "100%",
-              height: "110%",
-              marginBottom: "-5em",
+              marginBottom: "-6em",
             }}
             className="fondoDorado"
           />
@@ -435,16 +423,26 @@ console.log(Cinta)
                   id="modal-modal-description"
                   variant="body1"
                   component="h2"
-                  color='white'
+                  color="white"
                 >
-                    <b style={{color:'white',textDecoration:'underline'}}> Importante:</b><br/>
+                  <b style={{ color: "white", textDecoration: "underline" }}>
+                    {" "}
+                    Importante:
+                  </b>
+                  <br />
                   Nos gustaría informar amablemente a nuestros invitados que
                   este es un evento solo para adultos
                   <br />
                   <br />
-                  <b style={{color:'white',textDecoration:'underline'}}>correo:</b> la.imagendeoro@gmail.com
+                  <b style={{ color: "white", textDecoration: "underline" }}>
+                    correo:
+                  </b>{" "}
+                  la.imagendeoro@gmail.com
                   <br />
-                  <b style={{color:'white',textDecoration:'underline'}}>tel:</b>3571564671
+                  <b style={{ color: "white", textDecoration: "underline" }}>
+                    tel:
+                  </b>
+                  3571564671
                 </Typography>
                 <br />
               </Box>
@@ -454,7 +452,7 @@ console.log(Cinta)
         <Grid
           item
           xs={12}
-          sm={3}
+          sm={4}
           className="contentCard2"
           pl="0px!important"
           pt="0px!important"
@@ -463,10 +461,9 @@ console.log(Cinta)
           <Image
             src={Disco}
             alt={""}
+            width={425}
             style={{
-              width: "100%",
-              height: "110%",
-              marginBottom: "-5em",
+              marginBottom: "-6em",
             }}
             className="fondoDorado"
           />
@@ -519,7 +516,7 @@ console.log(Cinta)
         <Grid
           item
           xs={12}
-          sm={3}
+          sm={4}
           className="contentCard3"
           pl="0px!important"
           pt="0px!important"
@@ -528,10 +525,76 @@ console.log(Cinta)
           <Image
             src={Disco}
             alt={""}
+            width={425}
             style={{
-              width: "100%",
-              height: "110%",
-              marginBottom: "-5em",
+              marginBottom: "-6em",
+            }}
+            className="fondoDorado"
+          />
+          <Card
+            sx={{
+              backgroundColor: "#111111",
+              color: "white",
+              textAlign: "center",
+              m: "10%",
+              height: "100%",
+              position: "relative",
+              p: "1em",
+            }}
+            className="card"
+          >
+            <Box>
+              <Typography
+                variant="h4"
+                component="div"
+                gutterBottom
+                className="titleCard"
+              >
+                Alojamiento
+              </Typography>
+              <Typography variant="h6" className="descriptionCard">
+                Apart Tres Hotel
+              </Typography>
+            </Box>
+            <Button
+              onClick={handleOpen}
+              variant="contained"
+              className="titleCard buttonCard"
+              sx={{
+                position: "absolute",
+                left: "10px",
+                right: "10px",
+                bottom: "10px",
+                color: "black",
+                bgcolor: "#ffc34a",
+                border: "solid 3px rgba(255, 255, 255,0.43)",
+                borderRadius: "5px",
+                ":hover": {
+                  bgcolor: "white",
+                  color: "black",
+                },
+              }}
+            >
+              Ver Mapa
+            </Button>
+          </Card>
+        </Grid>
+        <Grid
+          item
+          xs={12}
+          sm={4}
+          className="contentCard3"
+          pl="0px!important"
+          pt="0px!important"
+          mt="15%!important"
+          height={"12em"}
+        >
+          <Image
+            src={Disco}
+            alt={""}
+            width={425}
+            style={{
+              marginBottom: "-6em",
             }}
             className="fondoDorado"
           />
@@ -561,7 +624,7 @@ console.log(Cinta)
               </Typography>
             </Box>
             <Button
-              onClick={handleOpen}
+              onClick={handleOpen4}
               variant="contained"
               className="titleCard buttonCard"
               sx={{
@@ -583,14 +646,22 @@ console.log(Cinta)
             </Button>
 
             <Modal
-              open={open}
-              onClose={handleClose}
+              open={open4}
+              onClose={handleClose4}
               aria-labelledby="modal-modal-title"
               aria-describedby="modal-modal-description"
             >
               <Box sx={style}>
-                <Typography id="modal-modal-title" variant="h5" component="h2" color={'black'}>
-                    <b style={{color:'white',textDecoration:'underline'}}> Dress Code: Elegante</b>
+                <Typography
+                  id="modal-modal-title"
+                  variant="h5"
+                  component="h2"
+                  color={"black"}
+                >
+                  <b style={{ color: "white", textDecoration: "underline" }}>
+                    {" "}
+                    Vestimenta elegante.
+                  </b>
                 </Typography>
                 <Typography
                   id="modal-modal-description"
@@ -599,17 +670,97 @@ console.log(Cinta)
                   sx={{ mt: 2 }}
                   color={"white"}
                 >
-                  Nos complace invitarlos a nuestro próximo evento, donde la
-                  elegancia será la clave.
+                 <b style={{ color: "white", textDecoration: "underline" }}>Mujeres: </b> <br />
+                   Puedes optar por monoprendas como vestidos o catsuit,
+                  faldas con blusas elegantes y conjuntos de sastrería. Los
+                  accesorios pueden ser tu mejor aliado para complementar tu
+                  outfit, bolso de mano pequeño y zapatos de tacón o plataforma
+                  preferentemente de colores que acompañen la prenda. 
+                  <br />
+                  <b style={{ color: "white", textDecoration: "underline" }}> Hombres: </b> <br />
+                  Traje o saco de diferente tonalidades, moños o corbatas y
+                  camisas de los colores que prefieras. "Elegí ser vos"
                   {<br />}
                   <br />
-                  <b style={{color:'white',textDecoration:'underline'}}> correo:</b> la.imagendeoro@gmail.com
+                  <b style={{ color: "white", textDecoration: "underline" }}>
+                    {" "}
+                    @aime.riotercero
+                  </b>
                   <br />
-                  <b style={{color:'white',textDecoration:'underline'}}>tel:</b>3571564671
+                  <b style={{ color: "white", textDecoration: "underline" }}>
+                    {" "}
+                    (3571) 641598
+                  </b>
                 </Typography>
                 <br />
               </Box>
             </Modal>
+          </Card>
+        </Grid>
+        <Grid
+          item
+          xs={12}
+          sm={4}
+          className="contentCard3"
+          pl="0px!important"
+          pt="0px!important"
+          mt="15%!important"
+          height={"12em"}
+        >
+          <Image
+            src={Disco}
+            alt={""}
+            width={425}
+            style={{
+              marginBottom: "-6em",
+            }}
+            className="fondoDorado"
+          />
+          <Card
+            sx={{
+              backgroundColor: "#111111",
+              color: "white",
+              textAlign: "center",
+              m: "10%",
+              height: "100%",
+              position: "relative",
+              p: "1em",
+            }}
+            className="card"
+          >
+            <Box>
+              <Typography
+                variant="h4"
+                component="div"
+                gutterBottom
+                className="titleCard"
+              >
+                Menú
+              </Typography>
+            </Box>
+            <Button
+            
+              href="public/Menú Imagen de oro.pdf"
+              download='Menú Imagen de oro.pdf'
+              variant="contained"
+              className="titleCard buttonCard"
+              sx={{
+                position: "absolute",
+                left: "10px",
+                right: "10px",
+                bottom: "10px",
+                color: "black",
+                bgcolor: "#ffc34a",
+                border: "solid 3px rgba(255, 255, 255,0.43)",
+                borderRadius: "5px",
+                ":hover": {
+                  bgcolor: "white",
+                  color: "black",
+                },
+              }}
+            >
+              Ver Menú
+            </Button>
           </Card>
         </Grid>
       </Grid>
@@ -642,6 +793,32 @@ console.log(Cinta)
           <b>CONFIRMAR ASISTENCIA</b>
         </Button>
       </Box>
+      <Grid container justifyContent="center" textAlign={"center"} pt={10}>
+        <Grid item xs={4}>
+          <Image
+            src={Pauny}
+            alt={""}
+            width={300}
+            className="imageEmpresas"
+          ></Image>
+        </Grid>
+        <Grid item xs={4}>
+          <Image
+            src={Muni}
+            alt={""}
+            height={175}
+            className="imageEmpresas1"
+          ></Image>
+        </Grid>
+        <Grid item xs={4}>
+          <Image
+            src={Coop}
+            alt={""}
+            width={300}
+            className="imageEmpresas"
+          ></Image>
+        </Grid>
+      </Grid>
       <Box bgcolor={"black"} p={"5px"}>
         <Grid container>
           <Grid item xs={4}>
