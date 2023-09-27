@@ -732,7 +732,7 @@ function ImagenDeOro() {
               </Typography>
             </Box>
             <Button
-              onClick={handleOpen}
+             href="https://maps.app.goo.gl/X4niZVLxUTo6DnLx8"
               variant="contained"
               className="titleCard buttonCard"
               sx={{
