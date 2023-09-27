@@ -520,8 +520,193 @@ function ImagenDeOro() {
               marginBottom: "-6em",
             }}
             className="fondoDorado"
+          />   <Card
+          sx={{
+            backgroundColor: "#111111",
+            color: "white",
+            textAlign: "center",
+            m: "10%",
+            height: "100%",
+            position: "relative",
+            p: "1em",
+          }}
+          className="card"
+        >
+          <Box>
+            <Typography
+              variant="h4"
+              component="div"
+              gutterBottom
+              className="titleCard"
+            >
+              Dress Code
+            </Typography>
+            <Typography variant="h6" className="descriptionCard">
+              Elegante
+            </Typography>
+          </Box>
+          <Button
+            onClick={handleOpen4}
+            variant="contained"
+            className="titleCard buttonCard"
+            sx={{
+              position: "absolute",
+              left: "10px",
+              right: "10px",
+              bottom: "10px",
+              color: "black",
+              backgroundImage:`url(${Boton.src})`,
+              backgroundSize:'cover',
+              
+              borderRadius: "5px",
+              ":hover": {
+                bgcolor: "white",
+                color: "black",
+              },
+            }}
+          >
+            Ver Más
+          </Button>
+
+          <Modal
+            open={open4}
+            onClose={handleClose4}
+            aria-labelledby="modal-modal-title"
+            aria-describedby="modal-modal-description"
+          >
+            <Box sx={style}>
+              <Typography
+                id="modal-modal-title"
+                variant="h5"
+                component="h2"
+                color={"black"}
+              >
+                <b style={{ color: "white", textDecoration: "underline" }}>
+                  {" "}
+                  Vestimenta elegante.
+                </b>
+              </Typography>
+              <Typography
+                id="modal-modal-description"
+                variant="body1"
+                component="h2"
+                sx={{ mt: 2 }}
+                color={"white"}
+              >
+               <b style={{ color: "white", textDecoration: "underline" }}>Mujeres: </b> <br />
+                 Puedes optar por monoprendas como vestidos o catsuit,
+                faldas con blusas elegantes y conjuntos de sastrería. Los
+                accesorios pueden ser tu mejor aliado para complementar tu
+                outfit, bolso de mano pequeño y zapatos de tacón o plataforma
+                preferentemente de colores que acompañen la prenda. 
+                <br />
+                <b style={{ color: "white", textDecoration: "underline" }}> Hombres: </b> <br />
+                Traje o saco de diferente tonalidades, moños o corbatas y
+                camisas de los colores que prefieras. "Elegí ser vos"
+                {<br />}
+                <br />
+                <b style={{ color: "white", textDecoration: "underline" }}>
+                  {" "}
+                  @aime.riotercero
+                </b>
+                <br />
+                <b style={{ color: "white", textDecoration: "underline" }}>
+                  {" "}
+                  (3571) 641598
+                </b>
+              </Typography>
+              <br />
+            </Box>
+          </Modal>
+        </Card>     
+        </Grid>
+        <Grid
+          item
+          xs={12}
+          sm={4}
+          className="contentCard3"
+          pl="0px!important"
+          pt="0px!important"
+          mt="15%"
+          height={"12em"}
+        >
+          <Image
+            src={Disco}
+            alt={""}
+            width={425}
+            style={{
+              marginBottom: "-6em",
+            }}
+            className="fondoDorado"
           />
-          <Card
+            <Card
+          sx={{
+            backgroundColor: "#111111",
+            color: "white",
+            textAlign: "center",
+            m: "10%",
+            height: "100%",
+            position: "relative",
+            p: "1em",
+          }}
+          className="card"
+        >
+          <Box>
+            <Typography
+              variant="h4"
+              component="div"
+              gutterBottom
+              className="titleCard"
+            >
+              Menú
+            </Typography>
+          </Box>
+          <Button
+            href="./Menú Imagen de oro.pdf"
+            download='Menú Imagen de oro.pdf'
+            variant="contained"
+            className="titleCard buttonCard"
+            sx={{
+              position: "absolute",
+              left: "10px",
+              right: "10px",
+              bottom: "10px",
+              color: "black",
+              backgroundImage:`url(${Boton.src})`,
+              backgroundSize:'cover',
+              
+              borderRadius: "5px",
+              ":hover": {
+                bgcolor: "white",
+                color: "black",
+              },
+            }}
+          >
+            Ver Menú
+          </Button>
+        </Card>
+          
+        </Grid>
+        <Grid
+          item
+          xs={12}
+          sm={4}
+          className="contentCard3"
+          pl="0px!important"
+          pt="0px!important"
+          mt="15%"
+          height={"12em"}
+        >
+          <Image
+            src={Disco}
+            alt={""}
+            width={425}
+            style={{
+              marginBottom: "-6em",
+            }}
+            className="fondoDorado"
+          />
+<Card
             sx={{
               backgroundColor: "#111111",
               color: "white",
@@ -567,191 +752,6 @@ function ImagenDeOro() {
               }}
             >
               Ver Mapa
-            </Button>
-          </Card>
-        </Grid>
-        <Grid
-          item
-          xs={12}
-          sm={4}
-          className="contentCard3"
-          pl="0px!important"
-          pt="0px!important"
-          mt="15%"
-          height={"12em"}
-        >
-          <Image
-            src={Disco}
-            alt={""}
-            width={425}
-            style={{
-              marginBottom: "-6em",
-            }}
-            className="fondoDorado"
-          />
-          <Card
-            sx={{
-              backgroundColor: "#111111",
-              color: "white",
-              textAlign: "center",
-              m: "10%",
-              height: "100%",
-              position: "relative",
-              p: "1em",
-            }}
-            className="card"
-          >
-            <Box>
-              <Typography
-                variant="h4"
-                component="div"
-                gutterBottom
-                className="titleCard"
-              >
-                Dress Code
-              </Typography>
-              <Typography variant="h6" className="descriptionCard">
-                Elegante
-              </Typography>
-            </Box>
-            <Button
-              onClick={handleOpen4}
-              variant="contained"
-              className="titleCard buttonCard"
-              sx={{
-                position: "absolute",
-                left: "10px",
-                right: "10px",
-                bottom: "10px",
-                color: "black",
-                backgroundImage:`url(${Boton.src})`,
-                backgroundSize:'cover',
-                
-                borderRadius: "5px",
-                ":hover": {
-                  bgcolor: "white",
-                  color: "black",
-                },
-              }}
-            >
-              Ver Más
-            </Button>
-
-            <Modal
-              open={open4}
-              onClose={handleClose4}
-              aria-labelledby="modal-modal-title"
-              aria-describedby="modal-modal-description"
-            >
-              <Box sx={style}>
-                <Typography
-                  id="modal-modal-title"
-                  variant="h5"
-                  component="h2"
-                  color={"black"}
-                >
-                  <b style={{ color: "white", textDecoration: "underline" }}>
-                    {" "}
-                    Vestimenta elegante.
-                  </b>
-                </Typography>
-                <Typography
-                  id="modal-modal-description"
-                  variant="body1"
-                  component="h2"
-                  sx={{ mt: 2 }}
-                  color={"white"}
-                >
-                 <b style={{ color: "white", textDecoration: "underline" }}>Mujeres: </b> <br />
-                   Puedes optar por monoprendas como vestidos o catsuit,
-                  faldas con blusas elegantes y conjuntos de sastrería. Los
-                  accesorios pueden ser tu mejor aliado para complementar tu
-                  outfit, bolso de mano pequeño y zapatos de tacón o plataforma
-                  preferentemente de colores que acompañen la prenda. 
-                  <br />
-                  <b style={{ color: "white", textDecoration: "underline" }}> Hombres: </b> <br />
-                  Traje o saco de diferente tonalidades, moños o corbatas y
-                  camisas de los colores que prefieras. "Elegí ser vos"
-                  {<br />}
-                  <br />
-                  <b style={{ color: "white", textDecoration: "underline" }}>
-                    {" "}
-                    @aime.riotercero
-                  </b>
-                  <br />
-                  <b style={{ color: "white", textDecoration: "underline" }}>
-                    {" "}
-                    (3571) 641598
-                  </b>
-                </Typography>
-                <br />
-              </Box>
-            </Modal>
-          </Card>
-        </Grid>
-        <Grid
-          item
-          xs={12}
-          sm={4}
-          className="contentCard3"
-          pl="0px!important"
-          pt="0px!important"
-          mt="15%"
-          height={"12em"}
-        >
-          <Image
-            src={Disco}
-            alt={""}
-            width={425}
-            style={{
-              marginBottom: "-6em",
-            }}
-            className="fondoDorado"
-          />
-          <Card
-            sx={{
-              backgroundColor: "#111111",
-              color: "white",
-              textAlign: "center",
-              m: "10%",
-              height: "100%",
-              position: "relative",
-              p: "1em",
-            }}
-            className="card"
-          >
-            <Box>
-              <Typography
-                variant="h4"
-                component="div"
-                gutterBottom
-                className="titleCard"
-              >
-                Menú
-              </Typography>
-            </Box>
-            <Button
-              href="./Menú Imagen de oro.pdf"
-              download='Menú Imagen de oro.pdf'
-              variant="contained"
-              className="titleCard buttonCard"
-              sx={{
-                position: "absolute",
-                left: "10px",
-                right: "10px",
-                bottom: "10px",
-                color: "black",
-                backgroundImage:`url(${Boton.src})`,
-                backgroundSize:'cover',
-                
-                borderRadius: "5px",
-                ":hover": {
-                  bgcolor: "white",
-                  color: "black",
-                },
-              }}
-            >
-              Ver Menú
             </Button>
           </Card>
         </Grid>
@@ -856,7 +856,7 @@ function ImagenDeOro() {
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
       >
-        <Box sx={style} style={{ width: 900, height: "100%" }} className="form">
+        <Box sx={style} style={{ width:'100%', height: "100%" }} className="form">
           <iframe
             className="form2"
             src="https://docs.google.com/forms/d/e/1FAIpQLSfcHJk7vss47vwQkiOuiiihLNWDTi3RObJ_dCEY-yQvIYu_wA/viewform?embedded=true"
