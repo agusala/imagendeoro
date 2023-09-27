@@ -30,7 +30,7 @@ import { ConfettiComponent } from "@/shared/components/confetti/confetti";
 import Pauny from "../../public/pany.png";
 import Coop from "../../public/coop.png";
 import Muni from "../../public/muni.png";
-
+import Boton from "../../public/botonDorado.jpg"
 function ImagenDeOro() {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
@@ -127,7 +127,8 @@ function ImagenDeOro() {
         >
           {"BIENVENIDO"}
         </DialogTitle>
-        <DialogContent style={{ backgroundColor: "rgba(229, 166, 94)" }}>
+        <DialogContent style={{  backgroundImage:`url(${Boton.src})`,
+                backgroundSize:'cover',}}>
           <DialogContentText
             id="alert-dialog-slide-description"
             textAlign={"center"}
@@ -330,18 +331,6 @@ function ImagenDeOro() {
           </Grid>
         </Box>
       </Box>
-      <Typography
-        variant="h3"
-        component="h2"
-        fontSize={30}
-        className="title-date"
-        mt={""}
-        textAlign={"center"}
-        color={"white"}
-      >
-        ¿ESTÁS LISTO?
-      </Typography>
-
       <Grid
         container
         justifyContent="center"
@@ -401,8 +390,8 @@ function ImagenDeOro() {
                 right: "10px",
                 bottom: "10px",
                 color: "black",
-                bgcolor: "#ffc34a",
-                border: "solid 3px rgba(255, 255, 255,0.43)",
+                backgroundImage:`url(${Boton.src})`,
+                backgroundSize:'cover',
                 borderRadius: "5px",
                 ":hover": {
                   bgcolor: "white",
@@ -500,8 +489,9 @@ function ImagenDeOro() {
                 right: "10px",
                 bottom: "10px",
                 color: "black",
-                bgcolor: "#ffc34a",
-                border: "solid 3px rgba(255, 255, 255,0.43)",
+                backgroundImage:`url(${Boton.src})`,
+                backgroundSize:'cover',
+                
                 borderRadius: "5px",
                 ":hover": {
                   bgcolor: "white",
@@ -566,8 +556,9 @@ function ImagenDeOro() {
                 right: "10px",
                 bottom: "10px",
                 color: "black",
-                bgcolor: "#ffc34a",
-                border: "solid 3px rgba(255, 255, 255,0.43)",
+                backgroundImage:`url(${Boton.src})`,
+                backgroundSize:'cover',
+                
                 borderRadius: "5px",
                 ":hover": {
                   bgcolor: "white",
@@ -633,8 +624,9 @@ function ImagenDeOro() {
                 right: "10px",
                 bottom: "10px",
                 color: "black",
-                bgcolor: "#ffc34a",
-                border: "solid 3px rgba(255, 255, 255,0.43)",
+                backgroundImage:`url(${Boton.src})`,
+                backgroundSize:'cover',
+                
                 borderRadius: "5px",
                 ":hover": {
                   bgcolor: "white",
@@ -749,8 +741,9 @@ function ImagenDeOro() {
                 right: "10px",
                 bottom: "10px",
                 color: "black",
-                bgcolor: "#ffc34a",
-                border: "solid 3px rgba(255, 255, 255,0.43)",
+                backgroundImage:`url(${Boton.src})`,
+                backgroundSize:'cover',
+                
                 borderRadius: "5px",
                 ":hover": {
                   bgcolor: "white",
@@ -780,10 +773,11 @@ function ImagenDeOro() {
             top: "3%",
             fontSize: "1em",
             bgcolor: "white",
-            border: "solid 3px rgba(255, 255, 255,0.43)",
+            
 
             ":hover": {
-              backgroundColor: "#ffc34a",
+              backgroundImage:`url(${Boton.src})`,
+                backgroundSize:'cover',
               color: "black",
             },
             mt: "20%",

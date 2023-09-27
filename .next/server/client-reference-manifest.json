@@ -1,5 +1,31 @@
 {
   "__ssr_module_mapping__": {
+    "(app-client)/./public/botonDorado.jpg": {
+      "": {
+        "id": "(sc_client)/./public/botonDorado.jpg",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./public/botonDorado.jpg",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/botonDorado.jpg",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./public/cinta1.jpg": {
       "": {
         "id": "(sc_client)/./public/cinta1.jpg",
@@ -329,6 +355,32 @@
       "chunks": [
         "static/css/app/page.css"
       ]
+    }
+  },
+  "C:\\Users\\Usuario\\Desktop\\Programacion\\nextjs\\imagendeoro\\public\\botonDorado.jpg": {
+    "": {
+      "id": "(app-client)/./public/botonDorado.jpg",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./public/botonDorado.jpg",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./public/botonDorado.jpg",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
     }
   },
   "C:\\Users\\Usuario\\Desktop\\Programacion\\nextjs\\imagendeoro\\public\\cinta1.jpg": {
