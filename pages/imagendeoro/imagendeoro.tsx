@@ -740,7 +740,7 @@ function ImagenDeOro() {
             </Box>
             <Button
             
-              href="public/Menú Imagen de oro.pdf"
+              href="public/Men\303\272 Imagen de oro.pdf"
               download='Menú Imagen de oro.pdf'
               variant="contained"
               className="titleCard buttonCard"
