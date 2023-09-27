@@ -586,7 +586,7 @@ function ImagenDeOro() {
           className="contentCard3"
           pl="0px!important"
           pt="0px!important"
-          mt="15%!important"
+          mt="15%"
           height={"12em"}
         >
           <Image
@@ -704,7 +704,7 @@ function ImagenDeOro() {
           className="contentCard3"
           pl="0px!important"
           pt="0px!important"
-          mt="15%!important"
+          mt="15%"
           height={"12em"}
         >
           <Image
