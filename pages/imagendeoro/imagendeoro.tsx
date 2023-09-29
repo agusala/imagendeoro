@@ -584,16 +584,22 @@ const [tooltip, setTooltip] = React.useState(false)
               <Box sx={style}>
                 <Typography
                   id="modal-modal-title"
+                  variant="body1"
+                  component="h2"
+                  color={"white"}
+                >
+                 Nos complace invitarlos a nuestro próximo evento, donde la elegancia será la clave.
+                  </Typography>
+                  <Typography
+                  id="modal-modal-title"
                   variant="h5"
                   component="h2"
                   color={"black"}
                 >
-                  Nos complace invitarlos a nuestro proximo evento, donde la elegancia sera la clave.
-                  <br/>
-                  <br style={{ color: "white", textDecoration: "underline" }}>
+                  <b style={{ color: "white", textDecoration: "underline" }}>
                     {" "}
                     Vestimenta elegante.
-                  </br>
+                  </b>
                 </Typography>
                 <Typography
                   id="modal-modal-description"
