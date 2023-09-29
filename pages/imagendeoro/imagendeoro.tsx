@@ -810,7 +810,8 @@ const [tooltip, setTooltip] = React.useState(false)
        fontSize: "1em",
        bgcolor: "#828282",
        borderRadius:'5px'
-      }}>
+      }}
+      className="buttonTooltip">
         <Button  sx={{color:'#e6e6e6'}} onClick={()=>setTooltip(!tooltip)}>Conocer el número de mi mesa.</Button>
       </Box>
     </Tooltip>
