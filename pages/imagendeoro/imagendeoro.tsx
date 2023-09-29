@@ -588,10 +588,12 @@ const [tooltip, setTooltip] = React.useState(false)
                   component="h2"
                   color={"black"}
                 >
-                  <b style={{ color: "white", textDecoration: "underline" }}>
+                  Nos complace invitarlos a nuestro proximo evento, donde la elegancia sera la clave.
+                  <br/>
+                  <br style={{ color: "white", textDecoration: "underline" }}>
                     {" "}
                     Vestimenta elegante.
-                  </b>
+                  </br>
                 </Typography>
                 <Typography
                   id="modal-modal-description"
