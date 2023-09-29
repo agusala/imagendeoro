@@ -33,6 +33,8 @@ import Coop from "../../public/coop.png";
 import Muni from "../../public/muni.png";
 import Boton from "../../public/botonDorado.jpg";
 function ImagenDeOro() {
+const [tooltip, setTooltip] = React.useState(false)
+
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -794,7 +796,7 @@ function ImagenDeOro() {
         >
           <b>CONFIRMAR ASISTENCIA</b>
         </Button> <br />
-        <Tooltip title="PRÓXIMAMENTE, SU MESA ESTARÁ DISPONIBLE AQUÍ." sx={{ borderColor: 'red' }}>
+        <Tooltip open={tooltip} title="PRÓXIMAMENTE, SU MESA ESTARÁ DISPONIBLE AQUÍ." sx={{ borderColor: 'red' }}>
       <Box sx={{
        textAlign: "center",
        m: "auto",
@@ -809,7 +811,7 @@ function ImagenDeOro() {
        bgcolor: "#828282",
        borderRadius:'5px'
       }}>
-        <Button  sx={{color:'#e6e6e6'}}>Conocer el número de mi mesa.</Button>
+        <Button  sx={{color:'#e6e6e6'}} onClick={()=>setTooltip(!tooltip)}>Conocer el número de mi mesa.</Button>
       </Box>
     </Tooltip>
       </Box>
